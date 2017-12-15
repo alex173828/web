@@ -1,0 +1,215 @@
+@import "assets/bourbon/bourbon";	
+
+@include font-face("Gotham Pro", "assets/fonts/GothamPro");
+@include font-face("Gotham Pro Black", "assets/fonts/GothamProBlack");
+
+$navBg: #373c4c;
+$navColor: #fff;
+$btnColor: #f82544;
+$btnHover: #ff2544;
+$btnAct: #BA4354;
+$margin: 5px;
+$padding: 5px;
+
+$items: 20;
+
+@mixin col($col) {
+	width: 100%/$items*$col;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html, body {
+	font-family: 'Gotham Pro', sans-serif;
+	color: #212121;
+	line-height: 1.5rem;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 15px;
+}
+html {
+	min-height: 100vh;
+}
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#{$all-text-inputs} {
+	padding: $padding;
+	font-size: 12px;
+	color: #212121;
+	border: 1px solid #212121;
+	outline-color: #212121;
+	border-radius: 3px;
+
+	&:focus::-webkit-input-placeholder {
+		color: transparent;
+	}
+}
+
+#{$all-buttons} {
+	color: #fff;
+	text-transform: uppercase;
+	background-color: $btnColor;
+	outline: none;
+	font-size: 13px;
+	font-weight: 600;
+	border: 1px solid $btnColor;
+	padding: $padding*2 $padding*4;
+	border-radius: 10px;
+
+	&:hover {
+		border: 1px solid $btnHover;
+		background-color: $btnHover;
+	}
+
+	&:active {
+		border: 1px solid $btnAct;
+		background-color: $btnAct;
+	}
+}
+
+h1,h2,h3,h4,h5 {
+	font-family: 'Gotham Pro Black', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+}
+
+.img {
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	height: 100%;
+}
+
+.icon {
+	display: inline-block;
+
+	img {
+		width: 34px;
+	}
+}
+
+.card {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-shadow: 0 0 4px 1px rgba(28,29,18,0.21);
+	        box-shadow: 0 0 4px 1px rgba(28,29,18,0.21);
+	margin: $margin*4;
+}
+
+.card__content {
+	text-align: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.card__header	 {
+		span {
+			height: 25vmin;
+			display: block;
+		}
+	}
+
+.card__body {
+	-webkit-box-flex: 10;
+	    -ms-flex: 10;
+	        flex: 10;
+	padding: $padding*4;
+}
+
+.card__footer {
+	-webkit-box-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	margin: $margin*4;
+	margin-top: 0;
+}
+
+
+@import "assets/common.blocks/main/main";
+@import "assets/common.blocks/footer/footer";
+@import "assets/common.blocks/navbar/navbar";
+
+@media all and (max-width: 1200px) {
+	.wrapper {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+		.card {
+		@include col(7);
+	}
+}
+
+@media all and (max-width: 992px) {
+	.card {
+		@include col(8);
+	}
+
+		#{$all-buttons} {
+		font-size: 12px;
+	}
+}
+
+@media all and (max-width: 768px) {
+	html, body {
+		font-size: rem(14);
+	}
+	
+	#{$all-buttons} {
+		font-size: 11px;
+	}
+
+	.card {
+		@include col(12);
+	}
+
+	.hidden-sm-down {
+		display: none;
+	}
+}
+
+@media all and (max-width: 576px) {
+	#{$all-buttons} {
+		font-size: 10px;
+	}
+
+	.hidden-xs-down {
+		display: none;
+	}
+
+		.card {
+		@include col(16);
+	}
+
+	.card__header	 {
+		span {
+			height: 35vmin;
+		}
+	}
+}

@@ -1,0 +1,82 @@
+#contacts {
+	@include col(18);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-item-align: center;
+	    align-self: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin: $margin*10 0;
+	align-self: center;
+
+	.about-me {
+		@include col(12);
+		-webkit-box-shadow: none;
+		        box-shadow: none;
+	}
+
+	.about-me__content {
+		padding: 0;
+	}
+
+	.about-me__text {
+		margin: 0;
+		padding: 0;
+	}
+
+	.feedback {
+		@include col(6);
+	}
+}
+
+@media all and (max-width: 992px) {
+	#contacts {
+	.about-me {
+		@include col(10);
+	}
+
+	.feedback {
+		@include col(8);
+	}
+}
+}
+
+@media all and (max-width: 768px) {
+	#contacts {
+		margin: $margin*8;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	.about-me {
+		@include col(16);
+	}
+
+	.feedback {
+		@include col(16);
+	}
+}
+}
+
+@media all and (max-width: 576px) {
+	#contacts {
+		margin: $margin*5 0;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	.about-me {
+		@include col(18);
+	}
+
+	.feedback {
+		@include col(18);
+	}
+}
+}
