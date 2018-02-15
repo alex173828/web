@@ -1,0 +1,10 @@
+SetEnvIf X-HTTPS 1 HTTPS
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP:X-HTTPS} !1
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+DirectoryIndex index.html 
+php_value default_charset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml
