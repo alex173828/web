@@ -1,0 +1,15 @@
+.modal__text {
+	text-transform: uppercase;
+	font-family: Gilroy;
+	font-size: 1em;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 2.06;
+	letter-spacing: 0.2px;
+	text-align: center;
+	color: $white;
+
+	@media all and (max-width: $xs) {
+	}
+}

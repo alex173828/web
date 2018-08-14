@@ -1,0 +1,10 @@
+.socials__link {
+	@include links;
+
+	color: $grey;
+	line-height: 1.5;
+
+	&::after {
+		background-color: $grey;
+	}
+}

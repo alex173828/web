@@ -1,0 +1,17 @@
+.header__logo {
+	font-family: 'Montserrat Alternates';
+	font-weight: 500;
+	font-size: em(18);
+	justify-self: start;
+	align-self: center;
+
+	@media all and (min-width: $xs) {
+		font-size: em(18);
+	}
+
+	@media all and (min-width: $sm) {
+		font-size: em(25);
+	}
+
+
+}

@@ -1,0 +1,41 @@
+.body {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto;
+	line-height: 1.42;
+	font-size: rem(11);
+	overflow-y: scroll;
+	margin: em(15) 0;
+
+	@media all and (min-width: $xs) {
+		font-size: rem(12.5);
+	}
+
+	@media all and (min-width: $sm) {
+		font-size: rem(13.5);
+	}
+
+	@media all and (min-width: $md) {
+		overflow-y: hidden;
+		font-size: rem(14);
+	}
+
+	@media all and (min-width: $lg) {
+		overflow-y: auto;
+		font-size: rem(14.5);
+	}
+
+	@media all and (min-width: $lg) {
+		font-size: rem(15);
+	}
+
+	@media all and (min-width: $xxl) {
+		font-size: rem(19);
+	}
+
+
+	/* media height */
+	@media all and (min-height: 1100px) {
+		margin: em(70) 0;
+	}
+}

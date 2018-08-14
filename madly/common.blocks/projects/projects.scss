@@ -1,0 +1,41 @@
+.projects {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+
+	grid-template-areas: "projects__nav projects__previews"
+	"projects__section projects__previews";
+
+	overflow-y: hidden;
+	padding: em(20) 0;
+
+
+	@media all and (min-width: $sm) {
+		padding: em(70) 0;
+	}
+
+	@media all and (min-width: $md) {
+		grid-template-columns: 1fr 3fr;
+	}
+
+	@media all and (min-width: $lg) {
+		width: 84%;
+		justify-self: center;
+		grid-template-columns: 1fr 3.5fr;
+		padding: em(40) 0;
+	}
+
+	@media all and (min-width: $xl) {
+		width: 78%;
+		grid-template-columns: 1fr 3.5fr;
+		padding: em(65) 0;
+	}
+
+	@media all and (min-width: $xxl) {
+		width: 74%;
+	}
+}
+
+@import "__nav/_projects__nav";
+@import "__previews/_projects__previews";
+@import "__section/_projects__section";

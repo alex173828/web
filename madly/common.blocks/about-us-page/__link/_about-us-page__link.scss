@@ -1,0 +1,9 @@
+.about-us-page__link {
+	@include links;
+
+	line-height: 1.7;
+
+	&::after {
+		
+	}
+}

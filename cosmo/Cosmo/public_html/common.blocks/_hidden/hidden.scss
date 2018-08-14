@@ -1,0 +1,22 @@
+/* screen width */
+.hidden-lg-down {
+	@media all and (max-width: $lg) {
+		display: none;
+	}
+}
+.hidden-md-down {
+	@media all and (max-width: $md) {
+		display: none;
+	}
+}
+.hidden-sm-down {
+	@media all and (max-width: $sm) {
+		display: none;
+	}
+}
+.hidden-xs-down {
+	@media all and (max-width: $xs) {
+		display: none;
+	}
+}
+

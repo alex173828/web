@@ -1,0 +1,27 @@
+.body {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex: 2;
+	padding-top: em(130);
+
+	@media all and (max-width: $xl) {
+		padding-top: em(30);
+	}
+
+	@media all and (max-width: $lg) {
+	}
+
+	@media all and (max-width: $sm) {
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	@media all and (max-width: $xs) {
+		flex-direction: column;
+		justify-content: flex-start;
+		padding-top: 3vw;
+	}
+}
+
+@import "__text/_body__text";
+@import "__title/_body__title";

@@ -1,0 +1,9 @@
+.contacts__slash {
+	width: 0;
+	margin: 0 em(30);
+	border: 1.5px solid $lightish-blue;
+	-webkit-transform: rotate(25deg);
+	        transform: rotate(25deg);
+	position: relative;
+	z-index: 1;
+}

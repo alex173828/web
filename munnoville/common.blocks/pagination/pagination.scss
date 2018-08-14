@@ -1,0 +1,8 @@
+.pagination {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+@import "__current-page/_pagination__current-pages";
+@import "__slash/_pagination__slash";
+@import "__number-of-pages/_pagination__number-of-pages";

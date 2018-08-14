@@ -1,0 +1,44 @@
+.button {
+	color: $white;
+	cursor: pointer;
+	border-radius: 8px;
+	border: 1px solid $lightish-blue;
+	background-color: $lightish-blue;
+	font-family: Gilroy;
+	font-size: em(20);
+	font-weight: 300;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 3vh;
+	min-height: em(50);
+	min-width: 54%;
+
+	&:hover {
+		border-color: rgba(77, 80, 258, 1);
+		background-color: rgba(77, 80, 258, 1);
+		-webkit-transform: scale(1.05);
+		        transform: scale(1.05);
+		transition: all 0.5s ease-out;
+	}
+
+	@media all and (max-width: $xl) {
+		min-width: 55%;
+		min-height: 3.2vw;
+		font-size: 1em;
+	}
+
+	@media all and (max-width: $lg) {
+		min-height: 5.5vw;
+	}
+	@media all and (max-width: $sm) {
+		min-width: 31.5555%;
+		min-height: 7vw;
+	}
+	@media all and (max-width: $xs) {
+		min-width: 75%;
+		min-height: em(40);
+		align-self: center;
+	}
+}
+
+@import "_right/_button_right";

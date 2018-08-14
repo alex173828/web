@@ -1,0 +1,10 @@
+.footer__copyright {
+	color: $white-5;
+	margin-left: auto;
+
+	@media all and (min-width: $xxl) {
+		font-size: em(22);
+	}
+}
+
+@import "_hidden-sm-down/_footer__copyright_hidden-sm-down";

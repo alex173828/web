@@ -1,0 +1,39 @@
+.sidebar {
+	font-size: em(17);
+	display: grid;
+	padding-left: rem(40);
+	padding-right: rem(40);
+	padding-top: rem(30);
+	padding-bottom: rem(30);
+	justify-items: space-between;
+	background-color: $dark-grey-two;
+
+	@media all and (min-width: $xs) {
+	}
+
+	@media all and (min-width: $sm) {
+		grid-row: 1 / span 3;
+		grid-column: 1;
+		
+		grid-template-rows: auto 1fr auto;
+		grid-template-columns: 100%;
+		padding-top: rem(40);
+		padding-bottom: rem(40);
+		justify-items: center;
+		padding-left: 0;
+		padding-right: 0;
+		
+	}
+
+	@media all and (min-width: $xl) {
+		padding-top: rem(55);
+		padding-bottom: rem(55);
+	}
+
+	@media all and (min-width: $xxl) {
+		padding-top: rem(85);
+		padding-bottom: rem(85);
+	}
+}
+
+@import "__label/_sidebar__label";

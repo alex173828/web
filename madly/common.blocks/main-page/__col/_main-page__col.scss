@@ -1,0 +1,58 @@
+.main-page__col:nth-of-type(1) {
+
+	@media all and (min-width: $xs) {
+
+	}
+
+	@media all and (min-width: $sm) {
+		padding-right: em(150);
+	}
+
+	@media all and (min-width: $md) {
+		padding-right: 0;
+	}
+
+	@media all and (min-width: $lg) {
+
+	}
+
+	@media all and (min-width: $xl) {
+		padding-bottom: em(40);
+	}
+
+	@media all and (min-width: $xxl) {
+
+	}
+}
+
+.main-page__col:nth-of-type(2) {
+
+	display: grid;	
+
+	@media all and (min-width: $xs) {
+
+	}
+
+	@media all and (min-width: $sm) {
+
+	}
+
+	@media all and (min-width: $md) {
+		margin-left: 0;
+		margin-right: em(0);
+		align-self: end;
+		justify-items: start;
+	}
+	
+	@media all and (min-width: $lg) {
+		margin-right: em(100);
+	}
+
+	@media all and (min-width: $xl) {
+		margin-right: em(90);
+	}
+
+	@media all and (min-width: $xxl) {
+		margin-right: em(150);
+	}
+}

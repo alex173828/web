@@ -1,0 +1,22 @@
+.request {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: $black;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	padding: 3em 2.45em;
+
+	display: grid;
+	grid-template-rows: auto 1fr;
+	grid-template-columns: 100%;
+	align-content: start;
+	justify-items: center;
+
+}
+
+
+@import "__close-icon/_request__close-icon";
+@import "__header/_request__header";
+@import "__form/_request__form";

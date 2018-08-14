@@ -1,0 +1,51 @@
+.services__select {
+	color: $white;
+	font-size: em(20);
+	cursor: pointer;
+	border-radius: 8px;
+	border: 1px solid $white;
+	background-color: transparent;
+	font-family: Gilroy;
+	font-weight: 300;
+	text-align: center;
+	text-align-last: center;
+	width: 45%;
+	margin-top: em(45);
+	min-height: em(50);
+
+	&:active {
+		background-color: $lightish-blue;
+		border-color: $lightish-blue;
+		outline: none;
+		transition: all 0.4s ease;
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	@media all and (max-width: $xl) {
+		min-height: 3.2vw;
+		margin-top: em(35);
+		font-size: 1em;
+	}
+
+	@media all and (max-width: $lg) {
+		min-height: 5.5vw;
+	}
+
+	@media all and (max-width: $md) {
+	}
+
+	@media all and (max-width: $sm) {
+		min-height: 7vw;
+	}
+
+	@media all and (max-width: $xs) {
+		margin-top: 1em;
+		min-width: 80%;
+		min-height: em(46);
+	}
+}
+
+@import "__option/_select__option";

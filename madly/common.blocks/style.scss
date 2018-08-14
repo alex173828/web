@@ -1,0 +1,246 @@
+/* fonts */
+@font-face {
+	font-family: 'TTNorms';
+	src: local('TTNorms-Regular'), url('../fonts/TTNorms-Regular.woff') format('woff'), url('../fonts/TTNorms-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TTNorms';
+	src: local('TTNorms-Medium'), url('../fonts/TTNorms-Medium.woff') format('woff'), url('../fonts/TTNorms-Medium.ttf') format('truetype');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'TTNorms';
+	src: local('TTNorms-Bold'), url('../fonts/TTNorms-Bold.woff') format('woff'), url('../fonts/TTNorms-Bold.ttf') format('truetype');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Montserrat Alternates';
+	src: local('MontserratAlternates-Regular'), url('../fonts/MontserratAlternates-Regular.ttf') format('truetype'), url('../fonts/MontserratAlternates-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat Alternates';
+	src: local('MontserratAlternates-Medium'), url('../fonts/MontserratAlternates-Medium.ttf') format('truetype'), url('../fonts/MontserratAlternates-Medium.woff') format('woff');
+	font-weight: 500;
+}
+
+/* variables */
+
+/* colors */
+$white: rgba(255, 255, 255, 1);
+$grey: rgba(255, 255, 255, 0.34);
+$black: #252525;
+$dark-grey: #2d2d2d;
+
+/* screens */
+$xs: 350px;
+$sm: 750px;
+$md: 1000px;
+$lg: 1250px;
+$xl: 1400px;
+$xxl: 1900px;
+
+
+/* px to em & rem */
+$browser-context: 15; // Default
+
+@function em($pixels, $context: $browser-context) {
+	@return #{$pixels/$context}em;
+}
+
+@function rem($pixels, $context: $browser-context) {
+	@return #{$pixels/$context}rem;
+}
+
+
+/* mixins */
+@mixin links {
+	text-decoration: none;
+	color: $white;
+
+	&::after {
+		display: block;
+		right: 0px;
+		width: 0;
+		background-color: $white;
+		height: 1px;
+		content: "";
+		transition: width 0.3s ease-out;
+	}
+
+	&:hover:after, &:focus:after {
+		width: 70%;
+	}
+}
+
+@mixin button {
+
+	text-decoration: none;
+	color: $white;
+	text-align: center;
+	vertical-align: middle;
+	background-color: transparent;
+	border: 2px solid $white;
+	border-radius: em(1);
+	padding: em(10) em(25);
+}
+
+@mixin input {
+	background-color: transparent;
+	padding: em(20);
+	border: 0;
+}
+
+*,
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
+ul {
+	list-style-type: none;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'TTNorms';
+	font-weight: 400;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	background-color: $black;
+	color: $white;
+}
+
+.page {
+	-webkit-background-size: contain;
+	background-size: contain;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto 1fr auto;
+	background-color: $black;
+	padding: 3em 2.45em;
+
+	@media all and (min-width: $sm) {
+		padding: 3em 3.75em;
+	}
+
+	@media all and (min-width: $md) {
+		grid-template-rows: auto 1fr auto;
+		background: $black url('../img/lines.png') center center no-repeat;
+	}
+
+
+
+	@media all and (min-width: $xl) {
+		padding: 3em 4.75em;
+	}
+
+	@media all and (min-width: $xxl) {
+		padding: 5em 6.25em;
+	}
+}
+
+
+@import "header/header";
+@import "body/body";
+@import "footer/footer";
+@import "navigation/navigation";
+@import "socials/socials";
+@import "main-page/main-page";
+@import "about-us-page/about-us-page";
+@import "contacts/contacts";
+@import "button/button";
+@import "request/request";
+@import "projects/projects";
+
+/* hide classes */
+.hidden {
+	display: none;
+}
+
+
+@media all and (max-width: $xxl) {
+	.hidden-xxl-down {
+		display: none;
+	}
+}
+
+@media all and (max-width: $xl) {
+	.hidden-xl-down {
+		display: none;
+	}
+}
+
+@media all and (max-width: $lg) {
+	.hidden-lg-down {
+		display: none;
+	}
+}
+
+@media all and (max-width: $md) {
+	.hidden-md-down {
+		display: none;
+	}
+}
+
+@media all and (max-width: $sm) {
+	.hidden-sm-down {
+		display: none;
+	}
+}
+
+@media all and (max-width: $xs) {
+	.hidden-xs-down {
+		display: none;
+	}
+}
+
+@media all and (min-width: $xs) {
+	.hidden-xs-up {
+		display: none;
+	}
+}
+
+@media all and (min-width: $sm) {
+	.hidden-sm-up {
+		display: none;
+	}
+}
+
+@media all and (min-width: $md) {
+	.hidden-md-up {
+		display: none;
+	}
+}
+
+@media all and (min-width: $lg) {
+	.hidden-lg-up {
+		display: none;
+	}
+}
+
+@media all and (min-width: $xl) {
+	.hidden-xl-up {
+		display: none;
+	}
+}
+
+@media all and (min-width: $xxl) {
+	.hidden-xxl-up {
+		display: none;
+	}
+}
+

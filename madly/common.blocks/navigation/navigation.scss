@@ -1,0 +1,11 @@
+.navigation {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 100%;
+
+	@media all and (min-width: $md) {
+		justify-self: end;
+	}
+}
+@import "__link/_navigation__link";
+@import "__list/_navigation__list";

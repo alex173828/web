@@ -1,0 +1,5 @@
+.link__text_hidden-sm-down {
+	@media all and (max-width: $xs) {
+		display: none;
+	}
+}

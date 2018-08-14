@@ -1,0 +1,13 @@
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 35%;
+	justify-content: space-between;
+	padding-top: 3vh;
+
+
+	@media all and (max-width: $xs) {
+		flex-wrap: wrap;
+	}
+}

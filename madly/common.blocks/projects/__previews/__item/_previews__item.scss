@@ -1,0 +1,30 @@
+.previews__item {
+	width: 100%;
+	height: rem(90);
+
+	background: $dark-grey;
+
+	@media all and (min-width: $xs) {
+		height: rem(116);
+	}
+
+	@media all and (min-width: $sm) {
+		height: rem(200);
+	}
+
+	@media all and (min-width: $md) {
+		height: rem(135);
+	}
+
+	@media all and (min-width: $lg) {
+		height: rem(145);
+	}
+
+	@media all and (min-width: $xl) {
+		height: rem(155);
+	}
+
+	@media all and (min-width: $xxl) {
+		height: rem(190);
+	}
+}

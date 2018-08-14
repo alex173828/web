@@ -1,0 +1,62 @@
+.navigation__list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	background-color: $black;
+	font-size: em(32);
+	text-align: center;
+	font-weight: 700;
+	width: 100%;
+	height: 76%;
+	margin-top: 25%;
+	
+	top: 0;
+	left: 0;
+
+	z-index: 1;
+
+
+	@media all and (min-width: $xs) {
+		font-size: em(36);
+		margin-top: 19%;
+		height: 80%;
+	}
+
+	@media all and (min-width: $sm) {
+		font-size: em(46);
+	}
+
+	@media all and (min-width: $md) {
+		position: relative;
+		flex-direction: row;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		align-self: center;
+		font-size: em(13);
+		font-weight: 400;
+		padding: 0;
+		margin: 0;
+	}
+
+	@media all and (min-width: $lg) {
+		font-size: em(14);
+	}
+
+	@media all and (min-width: $xl) {
+		font-size: em(15);
+	}
+
+	@media all and (min-width: $xxl) {
+		font-size: em(20);
+	}
+
+	/* height */
+	@media all and (min-height: $md) {
+		height: 84%;
+	}
+}
+@import "__item/_navigation__item";

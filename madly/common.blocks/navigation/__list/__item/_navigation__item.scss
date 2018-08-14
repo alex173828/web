@@ -1,0 +1,21 @@
+.navigation__item {
+	justify-self: center;
+	align-self: center;
+	color: $white;
+
+	@media all and (min-width: $md) {
+		padding: 0 em(8);
+	}
+
+	@media all and (min-width: $lg) {
+		padding: 0 em(10);
+	}
+
+	@media all and (min-width: $xl) {
+		padding: 0 em(12);
+	}
+
+	@media all and (min-width: $xxl) {
+		padding: 0 em(15);
+	}
+}

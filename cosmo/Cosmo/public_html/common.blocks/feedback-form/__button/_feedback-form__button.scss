@@ -1,0 +1,36 @@
+.feedback-form__button {
+	color: $white;
+	border-radius: 8px;
+	border: 1px solid $lightish-blue;
+	background-color: $lightish-blue;
+	font-family: Gilroy;
+	font-size: em(20);
+	font-weight: 300;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 1em;
+	min-height: 5vh;
+	width: 50%;
+	cursor: pointer;
+
+	@media all and (max-width: $xl) {
+		margin-top: 3vh;
+		min-height: 3.5vw;
+		width: 40%;
+	}
+	@media all and (max-width: $lg) {
+		margin-top: 3vh;
+		min-height: 5vw;
+	}
+	@media all and (max-width: $md) {
+		margin-top: 3vh;
+		min-height: 6vw;
+	}
+	@media all and (max-width: $sm) {
+		margin-top: 3vh;
+		min-height: 10vw;
+		width: 60%;
+	}
+	
+}

@@ -1,0 +1,50 @@
+.breadcrumbs {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-basis: 100%;
+	max-width: 100%;
+	font-size: em(14);
+	color: $white;
+
+	&:first-child {
+		margin-left: 0;
+	}
+
+
+
+
+	@media all and (min-width: $xs) {
+		justify-content: center;
+		flex-basis: 100%;
+		max-width: 100%;
+		font-size: em(14);
+	}
+
+	@media all and (min-width: $sm) {
+		flex-basis: 96%;
+		max-width: 96%;
+		font-size: em(16);
+	}
+
+	@media all and (min-width: $md) {
+		flex-basis: 90%;
+		max-width: 90%;
+		font-size: em(16);
+		justify-content: start;
+	}
+
+	@media all and (min-width: $lg) {
+		flex-basis: 84%;
+		max-width: 84%;
+		font-size: em(16);
+	}
+
+	@media all and (min-width: $xl) {
+		flex-basis: 66%;
+		max-width: 66%;
+		font-size: em(24);
+	}
+}
+
+@import "__item/_breadcrumbs__item";

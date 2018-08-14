@@ -1,0 +1,33 @@
+.contacts__buttons {
+	display: grid;
+
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: auto;
+	align-content: start;
+	justify-content: start;
+	justify-items: stretch;
+	grid-gap: em(20);
+
+
+	@media all and (min-width: $sm) {
+		grid-template-rows: auto;
+		grid-template-columns: 28% 28%;
+
+		justify-content: start;
+		justify-items: starts;
+
+		grid-gap: em(40);
+	}
+
+	@media all and (min-width: $md) {
+		grid-template-columns: 20% 20%;
+	}
+
+	@media all and (min-width: $lg) {
+		grid-template-columns: 22% 22%;
+	}
+
+	@media all and (min-width: $xxl) {
+		grid-template-columns: 28% 28%;
+	}
+}

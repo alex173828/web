@@ -1,0 +1,8 @@
+.nav__list {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: auto;
+
+	grid-gap: em(10);
+	justify-items: start;
+}

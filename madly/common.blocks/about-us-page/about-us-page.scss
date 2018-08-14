@@ -1,0 +1,46 @@
+.about-us-page {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto auto;
+
+	@media all and (min-width: $xs) {
+		padding: em(40) em(0) em(40) em(0);
+	}
+
+	@media all and (min-width: $sm) {
+		grid-gap: em(40);
+		padding: em(70) em(0) em(70) em(0);
+	}
+
+	@media all and (min-width: $md) {
+		grid-template-columns: 1.7fr 1fr;
+		grid-template-rows: auto;
+		overflow-y: hidden;
+		padding: em(40) em(0) em(40) em(0);
+	}
+
+	@media all and (min-width: $lg) {
+		grid-template-columns: 1.2fr 1fr;
+		padding: em(40) em(0) em(40) em(150);
+		grid-gap: em(140);
+	}
+
+	@media all and (min-width: $xl) {
+		padding: em(90) em(0) em(90) em(200);
+		grid-template-columns: 1.2fr 1fr;
+	}
+
+	@media all and (min-width: $xxl) {
+		grid-template-columns: 1fr 1fr;
+		padding: em(100) em(0) em(100) em(200);
+		grid-gap: em(140);
+	}
+
+
+
+
+}
+
+@import "__col/_about-us-page__col";
+@import "__link/_about-us-page__link";
+@import "__preview/_about-us-page__preview";

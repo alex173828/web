@@ -1,0 +1,35 @@
+.footer__links {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto;
+	grid-gap: 7px;
+
+	a {
+		text-decoration: none;
+		color: $grey;
+	}
+
+	@media all and (min-width: $xs) {
+		grid-gap: 10px;
+	}
+
+	@media all and (min-width: $sm) {
+		grid-gap: 15px;
+	}
+
+	@media all and (min-width: $md) {
+		grid-gap: 20px;
+	}
+
+	@media all and (min-width: $lg) {
+		grid-gap: 25px;
+	}
+
+	@media all and (min-width: $xl) {
+		grid-gap: 30px;
+	}
+
+	@media all and (min-width: $xxl) {
+		grid-gap: 40px;
+	}
+}

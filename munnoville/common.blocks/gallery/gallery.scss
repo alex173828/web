@@ -1,0 +1,14 @@
+.gallery {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 1fr auto;
+	overflow-x: hidden;
+
+}
+
+.angle-down {
+	text-align: center;
+}
+
+@import "__item/_gallery__item";
+@import "__list/_gallery__list";

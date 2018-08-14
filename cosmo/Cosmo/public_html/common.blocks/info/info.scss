@@ -1,0 +1,10 @@
+.info {
+	margin-top: 2em;
+	line-height: 2;
+	font-size: em(18);
+}
+
+@import "__card/_info__card";
+@import "__item/_info__item";
+@import "__link/_info__link";
+@import "__list/_info__list";

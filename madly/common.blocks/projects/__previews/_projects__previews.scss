@@ -1,0 +1,35 @@
+.projects__previews {
+	grid-area: projects__previews;
+	display: grid;
+
+	grid-template-rows: auto;
+	grid-template-columns: auto;
+	grid-gap: em(24);
+	
+	align-content: start;
+	overflow-y: scroll;
+	padding-right: em(10);
+
+	&::-webkit-scrollbar {
+		width: 2px;
+		background-color: transparent;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: $grey;
+	}
+
+	@media all and (min-width: $xs) {
+	}
+
+	@media all and (min-width: $sm) {
+		grid-gap: em(30);
+	}
+
+	@media all and (min-width: $md) {
+		grid-gap: em(30) em(40);
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@import "__item/_previews__item";

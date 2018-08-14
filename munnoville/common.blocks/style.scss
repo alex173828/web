@@ -1,0 +1,144 @@
+/* fonts */
+@font-face {
+	font-family: 'Gilroy';
+	src: local('Gilroy Light'), local('Gilroy-Light'), url('../fonts/gilroy/Gilroylight.woff2') format('woff2'), url('../fonts/gilroy/Gilroylight.woff') format('woff'), url('../fonts/gilroy/Gilroylight.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: local('Gilroy ExtraBold'), local('Gilroy-ExtraBold'), url('../fonts/gilroy/Gilroyextrabold.woff2') format('woff2'), url('../fonts/gilroy/Gilroyextrabold.woff') format('woff'), url('../fonts/gilroy/Gilroyextrabold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+/* colors */
+$white: #fff;
+$dark-grey: #1f2124;
+$dark-grey-two: #1d1f22;
+$desert: #d2a452;
+$white-5: rgba(255, 255, 255, 0.2);
+$black-91: rgba(48, 48, 48, 0.91);
+
+
+/* screens */
+$xxl: 1650px;
+$xl: 1400px;
+$lg: 1200px;
+$md: 992px;
+$sm: 765px;
+$xs: 580px;
+
+/* px to em */
+$browser-context: 16; // Default
+
+@function em($pixels, $context: $browser-context) {
+	@return #{$pixels/$context}em;
+}
+
+@function rem($pixels, $context: $browser-context) {
+	@return #{$pixels/$context}rem;
+}
+
+*,
+*:after,
+*:before {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
+ul {
+	list-style-type: none;
+}
+
+html, body {
+	height: 100%;
+	font-family: 'Gilroy';
+	font-weight: 300;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	background-color: $dark-grey;
+	color: $white;
+}
+
+@import "page/page";
+@import "sidebar/sidebar";
+@import "header/header";
+@import "body/body";
+@import "footer/footer";
+@import "hamburger/hamburgers";
+@import "logo/logo";
+@import "menu/menu";
+@import "contacts/contacts";
+@import "socials/socials";
+@import "link/link";
+@import "pagination/pagination";
+@import "feedback-form/feedback-form";
+@import "breadcrumbs/breadcrumbs";
+@import "gallery/gallery";
+
+
+/* hide classes */
+@media all and (max-width: $xl) {
+	.hidden-xl-down {
+		display: none;
+	}
+}
+
+@media all and (max-width: $lg) {
+	.hidden-lg-down {
+		display: none;
+	}
+}
+
+@media all and (max-width: $md) {
+	.hidden-md-down {
+		display: none;
+	}
+}
+
+@media all and (max-width: $sm) {
+	.hidden-sm-down {
+		display: none;
+	}
+}
+
+@media all and (max-width: $xs) {
+	.hidden-xs-down {
+		display: none;
+	}
+}
+
+@media all and (min-width: $xs) {
+	.hidden-xs-up {
+		display: none;
+	}
+}
+
+@media all and (min-width: $sm) {
+	.hidden-sm-up {
+		display: none;
+	}
+}
+
+@media all and (min-width: $md) {
+	.hidden-md-up {
+		display: none;
+	}
+}
+
+@media all and (min-width: $lg) {
+	.hidden-lg-up {
+		display: none;
+	}
+}
+
+@media all and (min-width: $xl) {
+	.hidden-xl-up {
+		display: none;
+	}
+}

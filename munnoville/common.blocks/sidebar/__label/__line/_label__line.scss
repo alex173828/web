@@ -1,0 +1,17 @@
+.label__line {
+	width: 0;
+	border-right: 1px solid $white-5;
+	grid-rows: 2;
+	justify-self: center;
+	align-self: start;
+	height: 54%;
+
+	/* width */
+	@media all and (min-width: $lg) {
+		height: 65%;
+	}
+
+	@media all and (min-width: $xl) {
+		height: 70%;
+	}
+}

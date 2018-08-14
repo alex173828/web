@@ -1,0 +1,66 @@
+.gallery__item {
+	background-size: cover;
+	width: 296px;
+	height: 168px;
+
+	&:nth-child(1) {
+		background: $black-91 url(../img/1.jpg) no-repeat;
+		background-size: cover;
+	}
+
+	&:nth-child(2) {
+		background: $black-91 url(../img/2.jpg) no-repeat;
+		background-size: cover;
+	}
+
+	&:nth-child(3) {
+		background: $black-91 url(../img/3.jpg) no-repeat;
+		background-size: cover;
+	}
+
+	&:nth-child(4) {
+		background: $black-91 url(../img/4.jpg) no-repeat;
+		background-size: cover;
+	}
+
+	&:nth-child(5) {
+		background: $black-91 url(../img/5.jpg) no-repeat;
+		background-size: cover;
+	}
+
+	&:nth-child(6) {
+		background: $black-91 url(../img/6.jpg) no-repeat;
+		background-size: cover;
+	}
+
+	&:nth-child(7) {
+		background: $black-91 url(../img/7.jpg) no-repeat;
+		background-size: cover;
+	}
+
+	/* width */
+	@media all and (min-width: $xs) {
+	
+	}
+
+	@media all and (min-width: $sm) {
+	
+	}
+
+	@media all and (min-width: $md) {
+	
+	}
+
+	@media all and (min-width: $lg) {
+		height: 180px;
+		width: 320px;
+	}
+
+	@media all and (min-width: $xl) {
+		height: 260px;
+		width: 456px;
+	}
+
+	/* height */
+
+}

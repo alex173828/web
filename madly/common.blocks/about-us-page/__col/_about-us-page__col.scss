@@ -1,0 +1,62 @@
+.about-us-page__col:nth-of-type(1) {
+	
+	@media all and (min-width: $xs) {
+
+	}
+
+	@media all and (min-width: $sm) {
+		padding-right: em(150);
+	}
+
+	@media all and (min-width: $md) {
+		padding-right: 0;
+	}
+
+	@media all and (min-width: $lg) {
+
+	}
+
+	@media all and (min-width: $xl) {
+
+	}
+
+	@media all and (min-width: $xxl) {
+
+	}
+}
+
+.about-us-page__col:nth-of-type(2) {
+	text-align: center;
+
+	display: grid;
+	justify-items: start;
+
+	@media all and (min-width: $xs) {
+		justify-items: end;
+	}
+
+	@media all and (min-width: $sm) {
+		
+	}
+
+	@media all and (min-width: $md) {
+		justify-items: start;
+		align-self: end;
+		text-align: left;
+		margin-left: 0;
+		margin-right: em(0);
+	}
+	
+	@media all and (min-width: $lg) {
+		margin-bottom: em(30);
+	}
+
+	@media all and (min-width: $xl) {
+		margin-bottom: em(50);
+	}
+
+
+	@media all and (min-width: $xxl) {
+		margin-bottom: em(25);
+	}
+}

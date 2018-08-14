@@ -1,0 +1,28 @@
+.body__text {
+	font-size: em(22);
+	font-family: Gilroy;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.64;
+	letter-spacing: normal;
+	text-align: left;
+	color: $white;
+	padding-top: 2vh;
+
+	@media all and (max-width: $xl) {
+		font-size: 1em;
+	}
+
+	@media all and (max-width: $md) {
+	}
+
+	@media all and (max-width: $sm) {
+	}
+
+	@media all and (max-width: $xs) {
+		padding-top: 0;
+	}
+}
+
+@import "_right/_body__text_right";

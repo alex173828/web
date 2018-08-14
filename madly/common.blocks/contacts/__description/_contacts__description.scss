@@ -1,0 +1,17 @@
+.contacts__description {
+	
+
+
+	@media all and (min-width: $xs) {
+	}
+
+	@media all and (min-width: $xl) {
+	}
+
+	@media all and (min-width: $xxl) {
+		font-size: rem(19);
+	}
+}
+
+@import "__text/_description__text";
+@import "__title/_description__title";

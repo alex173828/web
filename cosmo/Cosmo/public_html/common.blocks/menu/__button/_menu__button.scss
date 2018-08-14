@@ -1,0 +1,10 @@
+.menu__button {
+	border-radius: 50%;
+	background-color: $white;
+	position: relative;
+	z-index: 3;
+
+	@media all and (max-width: $sm) {
+		margin-left: auto;
+	}
+}

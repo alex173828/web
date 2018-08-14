@@ -1,0 +1,32 @@
+.main-page__preview {
+	background: $dark-grey;
+
+
+	@media all and (min-width: $sm) {
+		width: 35%;
+		height: rem(130);
+	}
+
+	@media all and (min-width: $md) {
+		width: 42%;
+		height: rem(120);
+		margin-bottom: em(15);
+	}
+
+	@media all and (min-width: $lg) {
+		width: 34%;
+		height: rem(125);
+		margin-bottom: em(15);
+	}
+
+	@media all and (min-width: $xl) {
+		width: 40%;
+		height: rem(155);
+		margin-bottom: em(18);
+	}
+
+	@media all and (min-width: $xxl) {
+		width: 47%;
+		height: rem(180);
+	}
+}

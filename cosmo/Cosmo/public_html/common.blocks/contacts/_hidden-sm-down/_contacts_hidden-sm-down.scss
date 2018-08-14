@@ -1,0 +1,5 @@
+.contacts_hidden-sm-down {
+	@media all and (max-width: $sm)  {
+		display: none;
+	}
+}

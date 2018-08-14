@@ -1,0 +1,14 @@
+.link__text {
+	flex-shrink: 0;
+	font-size: em(16);
+	font-family: Gilroy;
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.11;
+	letter-spacing: normal;
+	text-align: right;
+	margin-left: 1em;
+}
+
+@import "_hidden-sm-down/_link__text_hidden-sm-down";

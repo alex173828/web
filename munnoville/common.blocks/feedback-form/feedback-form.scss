@@ -1,0 +1,48 @@
+.feedback-form {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 10px 15px;
+
+	font-family: Gilroy;
+	font-weight: 300;
+	max-width: 70%;
+	padding-top: em(35);
+	grid-gap: em(12);
+
+
+	@media all and (min-width: $xs) {
+
+	}
+
+	@media all and (min-width: $sm) {
+		max-width: 40%;
+	}
+
+	@media all and (min-width: $md) {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto;
+		max-width: 82%;
+		grid-gap: em(40);
+	}
+	
+	@media all and (min-width: $lg) {
+		max-width: 62%;
+		padding-top: em(50);
+	}
+
+	@media all and (min-width: $xl) {
+		grid-gap: em(40);
+		max-width: 60%;
+		padding-top: em(70);
+	}
+
+	@media all and (min-width: $xxl) {
+		max-width: 63%;
+		grid-gap: em(60);
+	}
+}
+
+@import "__button/_feedback-form__button";
+@import "__input/_feedback-form__input";
+@import "__select/_feedback-form__select";

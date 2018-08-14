@@ -1,0 +1,6 @@
+.form__input {
+	@include input;
+	border-bottom: 1px solid $grey;
+	color: white;
+	font-size: rem(11);
+}

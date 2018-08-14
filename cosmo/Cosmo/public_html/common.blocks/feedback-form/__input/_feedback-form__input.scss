@@ -1,0 +1,47 @@
+.feedback-form__input {
+	border-radius: 8px;
+	border: 1px solid $white;
+	background-color: transparent;
+	font-family: Gilroy;
+	font-size: em(20);
+	font-weight: 300;
+	font-weight: bold;
+	color: $white;
+	margin-top: 1em;
+	padding-left: 2em;
+	min-height: 5vh;
+	width: 70%;
+
+	&::-webkit-input-placeholder {
+		color: $white;
+		font-weight: 300;
+	}
+	&:-ms-input-placeholder {
+		color: $white;
+		font-weight: 300;
+	}
+	&::-ms-input-placeholder {
+		color: $white;
+		font-weight: 300;
+	}
+	&::-moz-placeholder {
+		color: $white;
+		font-weight: 300;
+	}
+
+	@media all and (max-width: $xl) {
+		min-height: 3.5vw;
+		width: 80%;
+	}
+
+	@media all and (max-width: $lg) {
+		min-height: 5vw;
+	}
+	@media all and (max-width: $lg) {
+		min-height: 6vw;
+	}
+	@media all and (max-width: $sm) {
+		min-height: 10vw;
+		width: 80%;
+	}
+}

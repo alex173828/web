@@ -1,0 +1,33 @@
+.body__title {
+	font-family: Gilroy;
+	font-size: em(25);
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.28;
+	letter-spacing: 0.3px;
+	text-align: left;
+	color: $white;
+	text-transform: uppercase;
+
+	@media all and (min-width: $xs) {
+
+	}
+	
+	@media all and (min-width: $sm) {
+		font-size: em(30);
+	}
+
+	@media all and (min-width: $md) {
+		font-size: em(34);
+	}
+
+	@media all and (min-width: $lg) {
+		font-size: em(46);
+	}
+
+	@media all and (min-width: $xl) {
+		font-size: em(53);
+	}
+
+}

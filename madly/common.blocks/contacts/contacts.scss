@@ -1,0 +1,40 @@
+.contacts {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: auto auto;
+	align-content: start;
+
+	grid-gap: em(30);
+
+	padding: em(0) em(15) em(0) em(0);
+
+	@media all and (min-width: $xs) {
+		align-content: center;
+	}
+
+	@media all and (min-width: $sm) {
+
+	}
+
+	@media all and (min-width: $md) {
+		grid-gap: em(70);
+		justify-content: center;
+	}
+
+	@media all and (min-width: $lg) {
+		grid-template-columns: 70%;
+	}
+
+	@media all and (min-width: $xxl) {
+		grid-template-columns: 50%;
+	}
+
+
+	/* media height */
+	@media all and (min-height: 1100px) {
+		align-content: start;
+	}
+}
+
+@import "__description/_contacts__description";
+@import "__buttons/_contacts__buttons";

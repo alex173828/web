@@ -1,0 +1,8 @@
+.socials {
+	font-size: em(16);
+
+	@media all and (min-width: $xl) {
+		font-size: em(19);
+	}
+}
+@import "__icon/_socials__icon";

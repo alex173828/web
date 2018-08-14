@@ -1,0 +1,9 @@
+.header {
+	min-width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+
+	@media all and (max-width: $xl) {
+	} 
+}

@@ -1,0 +1,30 @@
+.services {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	@media all and (max-width: $xl) {
+		width: 85%;
+	}
+
+	@media all and (max-width: $lg) {
+		width: 90%;
+	}
+
+	@media all and (max-width: $md) {
+	}
+
+	@media all and (max-width: $sm) {
+		width: 70%;
+	}
+	@media all and (max-width: $xs) {
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+}
+
+
+@import "__select/_services__select";

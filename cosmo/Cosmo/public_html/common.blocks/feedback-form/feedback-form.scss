@@ -1,0 +1,25 @@
+.feedback-form {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	align-items: center;
+	justify-content: space-between;
+
+	@media all and (max-width: $lg) {
+	}
+	
+	@media all and (max-width: $md) {
+		width: 80%;
+	}
+	
+	@media all and (max-width: $sm) {
+		width: 100%;
+	}
+
+	@media all and (max-width: $xs) {
+	}
+}
+
+@import "__button/_feedback-form__button";
+@import "__input/_feedback-form__input";
+@import "__select/_feedback-form__select";

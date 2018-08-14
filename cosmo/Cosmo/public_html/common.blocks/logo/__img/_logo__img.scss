@@ -1,0 +1,12 @@
+.logo__img {
+	max-width: 56px;
+
+	@media all and (max-width: $xs) {
+		max-width: 36px;
+	}
+}
+
+.img {
+	display: block;
+	width: 100%;
+}

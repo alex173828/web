@@ -1,0 +1,24 @@
+.header {
+	grid-column: 2;
+	grid-row: 1;
+
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 100%;
+	
+
+	@media all and (min-width: $sm) {
+		padding-top: rem(40);
+		padding-right: rem(50);
+	}
+
+	@media all and (min-width: $xl) {
+		padding-top: rem(55);
+		padding-right: rem(55);
+	}
+
+	@media all and (min-width: $xxl) {
+		padding-top: rem(85);
+		padding-right: rem(75);
+	}
+}

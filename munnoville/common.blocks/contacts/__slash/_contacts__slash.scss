@@ -1,0 +1,14 @@
+.contacts__slash {
+	border: 1px solid $desert;
+	transform: rotate(30deg);
+	margin: 0 30px;
+
+
+	@media all and (min-width: $xl) {
+		max-height: 16px;
+	}
+
+	@media all and (min-width: $xxl) {
+		max-height: 19px;
+	}
+}

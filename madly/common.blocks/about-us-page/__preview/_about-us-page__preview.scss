@@ -1,0 +1,32 @@
+.about-us-page__preview {
+	background: $dark-grey;
+
+
+	@media all and (min-width: $sm) {
+		width: 35%;
+		height: rem(130);
+	}
+
+	@media all and (min-width: $md) {
+		width: 70%;
+		height: rem(130);
+		margin-bottom: em(15);
+	}
+
+	@media all and (min-width: $lg) {
+		width: 55%;
+		height: rem(145);
+		margin-bottom: em(15);
+	}
+
+	@media all and (min-width: $xl) {
+		width: 53%;
+		height: rem(155);
+		margin-bottom: em(18);
+	}
+
+	@media all and (min-width: $xxl) {
+		width: 47%;
+		height: rem(180);
+	}
+}

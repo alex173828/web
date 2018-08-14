@@ -1,0 +1,24 @@
+.link {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 0 (93px / 1920px * 100%);
+	text-decoration: none;
+	color: $white;
+
+	:hover {
+		color: $desert;
+	}
+
+	@media all and (max-width: $xs) {
+		margin-left: auto;
+		padding: 0;
+	}
+
+	@media all and (min-width: $xxl) {
+		font-size: em(19);
+	}
+}
+
+@import "__icon/_link__icon";
+@import "__text/_link__text";

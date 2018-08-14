@@ -1,0 +1,20 @@
+.navigation__link {
+	@include links;
+
+	line-height: 1.5;
+
+	justify-self: end;
+	align-self: center;
+	text-decoration: none;
+	color: $white;
+	font-size: em(12);
+
+
+	@media all and (min-width: $xs) {
+		font-size: em(13);
+	}
+
+	@media all and (min-width: $sm) {
+		font-size: em(14.5);
+	}
+}

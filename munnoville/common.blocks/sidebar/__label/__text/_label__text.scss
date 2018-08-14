@@ -1,0 +1,46 @@
+.label__text {
+	grid-rows: 1;
+	transform: rotate(-90deg);
+	align-self: center;
+	font-size: em(16);
+	text-transform: uppercase;
+	white-space: pre;
+	font-style: normal;
+	font-stretch: condensed;
+	line-height: normal;
+	letter-spacing: rem(8);
+	color: $white;
+
+
+	justify-self: center;
+
+	/* width */
+
+	@media all and (min-width: $sm) {
+		font-size: em(11);
+	}
+
+	@media all and (min-width: $lg) {
+		padding-right: em(30);
+		font-size: em(13);
+	}
+
+	@media all and (min-width: $xl) {
+		font-size: em(15);
+		padding-right: em(35);
+	}
+
+	@media all and (min-width: $xxl) {
+		font-size: em(21);
+	}
+
+	/* height */
+	
+	@media all and (min-height: $md) {
+		font-size: em(16);
+	}
+
+	@media all and (min-height: $lg) {
+		font-size: em(20);
+	}
+}

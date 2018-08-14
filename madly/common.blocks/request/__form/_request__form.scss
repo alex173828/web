@@ -1,0 +1,28 @@
+.request__form {
+	align-self: center;
+	display: grid;
+	grid-template-rows: repeat(3, auto);
+	grid-template-columns: 100%;
+
+	grid-gap: em(40);
+
+	justify-content: center;
+
+
+	@media all and (min-width: $sm) {
+		grid-template-columns: 75%;
+
+	}
+
+	@media all and (min-width: $md) {
+		grid-template-columns: 72%;
+
+	}
+}
+
+@import "__header/_form__header";
+@import "__body/_form__body";
+@import "__footer/_form__footer";
+@import "__input/_form__input";
+@import "__button/_form__button";
+@import "__upload-link/_form__upload-link";

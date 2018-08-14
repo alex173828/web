@@ -1,0 +1,10 @@
+.header {
+	display: grid;
+	grid-template-columns: 2fr 1fr 2fr;
+	grid-template-rows: 100%;
+	align-items: center;
+	justify-items: center;
+}
+
+@import "__menu/_header__menu";
+@import "__logo/_header__logo";

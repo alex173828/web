@@ -1,0 +1,13 @@
+.projects__nav {
+	grid-area: projects__nav;
+
+	display: grid;
+
+	grid-template-rows: auto;
+	grid-template-columns: auto;
+	align-items: start;
+}
+
+@import "__item/_nav__item";
+@import "__link/_nav__link";
+@import "__list/_nav__list";

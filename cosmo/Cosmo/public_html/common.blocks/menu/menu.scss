@@ -1,0 +1,53 @@
+.menu {
+	padding-left: em(82);
+	padding-right: em(120);
+	padding-top: em(160);
+	padding-bottom: em(130);
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	width: 31%;
+	right: -31%;
+	height: 100%;
+	background-color: $white;
+	box-shadow: 0 0 10px 0 rgba(59, 59, 59, 0.33);
+	transition-timing-function: ease-out;
+	transition-delay: 0;
+	overflow-y: scroll;
+
+	&::-webkit-scrollbar {
+		width: 2px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		border-radius: em(8);
+		color: $lightish-blue;
+		background-color: $lightish-blue;
+	}
+	
+	@media screen and (max-width: $xl) {
+		width: 42%;
+		right: -42%;
+	}
+
+	@media screen and (max-width: $lg) {
+		width: 60%;
+		right: -60%;
+	}
+
+	@media screen and (max-width: $md) {
+		width: 100%;
+		right: -100%;
+	}
+
+	@media screen and (max-width: $xs) {
+		padding-left: em(42);
+		padding-right: em(42);
+		padding-top: em(85);
+		padding-bottom: em(85);
+	}
+}
+
+@import "__title/_menu__title";
+@import "__button/_menu__button";
+@import "__text/_menu__text";

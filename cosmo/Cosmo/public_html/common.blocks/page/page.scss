@@ -1,0 +1,29 @@
+.page {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	overflow: hidden;
+	font-family: 'Gilroy';
+	font-weight: 300;
+	font-size: em(16);
+	padding: 0;
+	margin: 0;
+	color: $white;
+	width: 100%;
+	padding-top: 75px / 1920px * 100%;
+	padding-right: 75px / 1920px * 100%;
+	padding-left: 75px / 1920px * 100%;
+	padding-bottom: 75px / 1920px * 100%;
+	background: $black url("../img/background.png") center center no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: scroll;
+
+	&::-webkit-scrollbar {
+		width: 0;
+	}
+
+	@media all and (max-width: $xs) {
+		background: $black;
+	}
+}

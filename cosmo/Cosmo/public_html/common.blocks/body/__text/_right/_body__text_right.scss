@@ -1,0 +1,7 @@
+.body__text_right {
+	margin-left: auto;
+
+	@media all and (max-width: $xs) {
+		margin-left: 0;
+	}
+}

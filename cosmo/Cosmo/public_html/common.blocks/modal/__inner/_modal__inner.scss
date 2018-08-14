@@ -1,0 +1,19 @@
+.modal__inner {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	align-items: center;
+	padding: 5vh 6vw;
+	background-color: $black;
+	background-color: rgba(0, 0, 0, 1);
+
+	@media all and (max-width: $xl) {
+	}
+	@media all and (max-width: $lg) {
+	}
+	@media all and (max-width: $md) {
+	}
+}
+
+@import "../__title/_modal__title";
+@import "../__text/_modal__text";

@@ -1,0 +1,28 @@
+.footer {
+	grid-row: 3;
+
+	display: flex;
+	padding-left: rem(40);
+	padding-right: rem(40);
+	padding-bottom: rem(40);
+
+	@media all and (min-width:  $sm) {
+		padding-left: rem(50);
+		padding-bottom: rem(40);
+		padding-right: rem(50);
+	}
+
+	@media all and (min-width: $xl) {
+		padding-left: rem(90);
+		padding-bottom: rem(55);
+		padding-right: rem(55);
+	}
+
+	@media all and (min-width: $xxl) {
+		padding-left: rem(145);
+		padding-bottom: rem(85);
+		padding-right: rem(75);
+	}
+}
+
+@import "__copyright/_footer__copyright";

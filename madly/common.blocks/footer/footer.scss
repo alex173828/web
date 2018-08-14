@@ -1,0 +1,23 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	font-size: em(10);
+
+	z-index: 2;
+
+	@media all and (min-width: $xs) {
+		font-size: em(12.2);
+	}
+
+	@media all and (min-width: $sm) {
+		font-size: em(15);
+	}
+
+	@media all and (min-width: $xxl) {
+		font-size: em(19);
+	}
+}
+
+@import "__links/_footer__links";
+@import "__link/_footer__link";
+@import "__copyright/_footer__copyright";

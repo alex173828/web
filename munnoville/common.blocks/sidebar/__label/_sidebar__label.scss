@@ -1,0 +1,15 @@
+.sidebar__label {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 60% 40%;
+
+	@media all and (min-width: $lg) {
+		grid-gap: em(30);
+	}
+
+	@media all and (min-width: $xl) {
+	}
+}
+
+@import "__line/_label__line";
+@import "__text/_label__text";
