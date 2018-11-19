@@ -1,0 +1,13 @@
+.icon_arrow_advantages {
+	fill: none;
+	width: 4.5em;
+	height: 4.6em;
+	position: relative;
+	left: 9.6em;
+	bottom: 5.5em;
+
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+
+}

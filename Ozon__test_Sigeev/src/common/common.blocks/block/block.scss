@@ -1,0 +1,10 @@
+.block {
+	display: grid;
+	align-content: start;
+}
+
+/* block elements */
+@import "__description/_block__description";
+@import "__img/_block__img";
+@import "__title/_block__title";
+

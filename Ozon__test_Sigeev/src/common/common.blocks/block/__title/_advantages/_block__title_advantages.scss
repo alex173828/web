@@ -1,0 +1,23 @@
+.block__title_advantages {
+	font-size: 2em;
+	line-height: 1.1em;
+	font-weight: 900;
+	color: $dark-grey;
+	margin-bottom: 0.35em;
+
+	@media screen and (max-width: 1350px) {
+		font-size: 1.9em;
+	}
+
+	@media screen and (max-width: 1150px) {
+		font-size: 1.7em;
+	}
+
+	@media screen and (max-width: 960px) {
+		font-size: 1.6em;
+	}
+
+	@media screen and (max-width: 770px) {
+		font-size: 1.5em;
+	}
+}

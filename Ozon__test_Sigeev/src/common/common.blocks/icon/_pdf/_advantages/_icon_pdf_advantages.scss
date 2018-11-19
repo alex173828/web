@@ -1,0 +1,13 @@
+.icon_pdf_advantages {
+	width: 6em;
+	height: 6em;
+	position: relative;
+	left: 13em;
+	bottom: 11em;
+
+	@media screen and (max-width: 768px) {
+		/*display: none;*/
+		left: -1.05em;
+		bottom: -0.3em;
+	}
+}

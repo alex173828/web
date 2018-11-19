@@ -1,0 +1,58 @@
+ $hamburger-padding-x                       : 0;
+ $hamburger-padding-y                       : 0;
+ $hamburger-layer-width                     : 1.85rem;
+ $hamburger-layer-height                    : 2px;
+ $hamburger-layer-spacing                   : 5px;
+ $hamburger-layer-color                     : #fff;
+ $hamburger-layer-border-radius             : 4px;
+ $hamburger-hover-opacity                   : 1;
+ $hamburger-hover-transition-duration       : 0.2s;
+ $hamburger-hover-transition-timing-function: linear;
+
+
+ $hamburger-hover-use-filter: false;
+ $hamburger-hover-filter    : opacity(50%);
+
+
+ $hamburger-types: (
+  slider
+  );
+
+ .hamburger {
+  padding: $hamburger-padding-y $hamburger-padding-x;
+  display: inline-block;
+  cursor: pointer;
+
+  transition-property: opacity, filter;
+  transition-duration: $hamburger-hover-transition-duration;
+  transition-timing-function: $hamburger-hover-transition-timing-function;
+
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+  position: relative;
+  z-index: 100;
+  outline: none;
+  
+  &:hover {
+    @if $hamburger-hover-use-filter == true {
+      filter: $hamburger-hover-filter;
+    }
+    @else {
+      opacity: $hamburger-hover-opacity;
+    }
+  }
+}
+
+
+/* import elements */
+@import "__box/_hamburger__box";
+@import "__inner/_hamburger__inner";
+
+/* import mods */
+@import "_type/hamburgers_type_slider";
+

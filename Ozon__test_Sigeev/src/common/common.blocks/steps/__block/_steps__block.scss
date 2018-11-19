@@ -1,0 +1,17 @@
+.steps__block {
+	display: grid;
+	grid-auto-flow: column;
+	justify-content: start;
+	align-items: center;
+	align-content: center;
+	grid-gap: 1.1em;
+
+	@media screen and (max-width: 450px) {
+		grid-auto-flow: row;
+		align-content: start;
+		align-items: start;
+		justify-content: center;
+		justify-items: center;
+		text-align: center;
+	}
+}

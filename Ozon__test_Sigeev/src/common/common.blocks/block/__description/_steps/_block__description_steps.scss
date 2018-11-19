@@ -1,0 +1,9 @@
+.block__description_steps {
+	font-weight: 300;
+	font-size: 1.7333em;
+	line-height: 1.15em;
+
+	@media screen and (max-width: 450px) {
+		font-weight: 700;
+	}
+}

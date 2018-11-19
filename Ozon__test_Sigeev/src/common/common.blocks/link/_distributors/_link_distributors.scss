@@ -1,0 +1,11 @@
+.link_distributors {
+	color: $white;
+	text-decoration: none;
+	border-bottom: 1px solid $white;
+
+	&:hover {
+		transition: all 0.2s ease;
+		color: $link_hover;
+		border-color: $link_hover;
+	}
+}

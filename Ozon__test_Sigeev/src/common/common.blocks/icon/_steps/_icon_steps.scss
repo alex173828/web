@@ -1,0 +1,12 @@
+.icon_steps {
+	width: 1.5em;
+	height: 4em;
+	stroke: $white;
+	fill: none;
+
+	@media screen and (max-width: 450px) {
+		transition: all 0.3s ease;
+		transform: rotate(90deg);
+		height: 4em;
+	}
+}

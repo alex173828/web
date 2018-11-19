@@ -1,0 +1,26 @@
+.section__content_main {
+	display: grid;
+	align-content: start;
+	align-items: start;
+	grid-gap: 7.33em;
+
+	@media screen and (max-width: 1150px) {
+		grid-gap: 6em;
+	}
+
+	@media screen and (max-width: 960px) {
+		grid-gap: 4em;
+	}
+
+	@media screen and (max-width: 768px) {
+		grid-gap: 3em;
+	}
+
+	@media screen and (max-width: 580px) {
+		grid-gap: 2.5em;
+	}
+
+	@media screen and (max-width: 500px) {
+		grid-gap: 2em;
+	}
+}

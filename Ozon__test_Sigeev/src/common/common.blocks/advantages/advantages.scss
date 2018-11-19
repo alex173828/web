@@ -1,0 +1,40 @@
+.advantages {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 5em 2.5em;
+	width: 76%;
+
+
+	@media screen and (max-width: 1350px) {
+		width: 80%;
+	}
+
+	@media screen and (max-width: 1150px) {
+		width: 84%;
+	}
+
+	@media screen and (max-width: 960px) {
+		width: 88%;
+	}
+
+	@media screen and (max-width: 768px) {
+		width: 100%;
+		grid-gap: 3em;
+	}
+
+	@media screen and (max-width: 650px) {
+		grid-template-columns: auto;
+	}
+
+	@media screen and (max-width: 450px) {
+	}
+
+	@media screen and (max-width: 350px) {
+
+	}
+
+}
+
+/* advantages elements */
+@import "__block/_advantages__block";
+@import "__link/_advantages__link";

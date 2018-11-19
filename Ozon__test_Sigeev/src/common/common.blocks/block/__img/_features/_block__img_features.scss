@@ -1,0 +1,80 @@
+.block__img_features {
+	width: 100%;
+	height: 20em;
+
+	&#feature_promo {
+		background: #fff url("../src/assets/img/feature-1.png") center center no-repeat;
+		-webkit-background-size: contain;
+		background-size: contain;
+
+		@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+			background: #fff url("../src/assets/img/feature-1@2x.png") center center no-repeat;
+			-webkit-background-size: contain;
+			background-size: contain;
+		}
+	}
+
+	&#feature_motivation {
+		background: #fff url("../src/assets/img/feature-2.png") center center no-repeat;
+		-webkit-background-size: contain;
+		background-size: contain;
+
+		@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+			background: #fff url("../src/assets/img/feature-2@2x.png") center center no-repeat;
+			-webkit-background-size: contain;
+			background-size: contain;
+		}
+	}
+
+	&#feature_holidays-gifts {
+		background: #fff url("../src/assets/img/feature-3.png") center center no-repeat;
+		-webkit-background-size: contain;
+		background-size: contain;
+
+		@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+			background: #fff url("../src/assets/img/feature-3@2x.png") center center no-repeat;
+			-webkit-background-size: contain;
+			background-size: contain;
+		}
+	}
+
+	&#feature_clients-gifts {
+		background: #fff url("../src/assets/img/feature-4.png") center center no-repeat;
+		-webkit-background-size: contain;
+		background-size: contain;
+
+		@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+			background: #fff url("../src/assets/img/feature-4@2x.png") center center no-repeat;
+			-webkit-background-size: contain;
+			background-size: contain;
+		}
+	}
+
+	&#feature_events-souvenirs {
+		background: #fff url("../src/assets/img/feature-5.png") center center no-repeat;
+		-webkit-background-size: contain;
+		background-size: contain;
+
+		@media screen and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+			background: #fff url("../src/assets/img/feature-5@2x.png") center center no-repeat;
+			-webkit-background-size: contain;
+			background-size: contain;
+		}
+	}
+
+	@media screen and (max-width: 1350px) {
+		height: 16em;
+	}
+
+	@media screen and (max-width: 1150px) {
+		height: 14em;
+	}
+
+	@media screen and (max-width: 580px) {
+		height: 16em;
+	}
+
+	@media screen and (max-width: 450px) {
+		height: 12em;
+	}
+}

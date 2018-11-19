@@ -1,0 +1,6 @@
+.nav__item_header {
+	color: $white;
+	text-decoration: none;
+	
+	@include link_hover;
+}
