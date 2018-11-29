@@ -1,0 +1,14 @@
+.menu__item_jumping {
+	background-color: $green_light;
+	position: relative;
+	transition: all 0.1s ease-in-out;
+	padding: 2em 1em 0 0;
+	border-top-right-radius: 100em;
+
+	&:hover {
+		transition: all 0.1s ease;
+		transform: translate(1em, -1em);
+		border-top-right-radius: 0;
+		padding: 0;
+	}
+}
