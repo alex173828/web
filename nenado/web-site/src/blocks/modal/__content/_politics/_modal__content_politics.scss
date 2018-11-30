@@ -1,0 +1,41 @@
+.modal__content_politics {
+	width: 95%;
+	overflow-y: auto;
+	align-content: start;
+
+	@media screen and (min-width: $xxs-screen) {
+		width: 85%;
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		width: 70%;
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		width: 60%;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		width: 50%;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		width: 40%;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+		width: 35%;
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		width: 30%;
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+
+	@media screen and (max-width: $sm-screen) and (orientation: landscape) {
+		max-height: 60vh;
+	}
+}

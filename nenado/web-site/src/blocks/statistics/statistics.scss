@@ -1,0 +1,48 @@
+.statistics {
+	display: grid;
+	width: 100%;
+	justify-items: center;
+	grid-gap: 2rem;
+	padding-top: 4em;
+	grid-auto-flow: column;
+
+	opacity: 0;
+	transform: translateY(100%);
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		padding-top: 0;
+	}
+
+	@media screen and (min-width: $md-screen) {
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		padding-right: 1.75rem;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+@import "__container/_statistics__container";
+@import "__number/_statistics__number";
+@import "__text/_statistics__text";
+
+@import "_animated/_statistics_animated";

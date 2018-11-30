@@ -1,0 +1,29 @@
+.section__title {
+	font-family: 'Oswald', serif;
+	font-size: 2.2em;
+	font-weight: 700;
+	justify-self: center;
+	text-align: center;
+	margin-bottom: 2em;
+	text-transform: uppercase;
+
+	@media screen and (min-width: 350px) {}
+	@media screen and (min-width: 550px) {}
+	@media screen and (min-width: 750px) {
+		font-size: 2.4em;
+	}
+	@media screen and (min-width: 950px) {}
+	@media screen and (min-width: 1150px) {}
+	@media screen and (min-width: 1350px) {}
+}
+
+/* section__title mods */
+@import "_whom/_section__title_whom";
+@import "_contacts/_section__title_contacts";
+@import "_features/_section__title_features";
+@import "_packages/_section__title_packages";
+@import "_map/_section__title_map";
+@import "_reviews/_section__title_reviews";
+@import "_program/_section__title_program";
+@import "_authors/_section__title_authors";
+@import "_main/_section__title_main";

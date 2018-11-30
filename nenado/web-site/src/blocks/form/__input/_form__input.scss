@@ -1,0 +1,48 @@
+.form__input {
+	font-size: 0.85em;
+	padding: 1.2rem 2rem;
+	border-radius: 0.66rem;
+	border: none;
+	box-shadow: 0 0 5px 0.05px rgba(0, 0, 0, 0.05);
+	color: $black;
+	background-color: rgba(255, 255, 255, 0.4);
+	outline: none;
+
+	&:focus {
+		box-shadow: 0 0 5px 0.1px rgba(111, 84, 163, 1);
+		background-color: rgba(255, 255, 255, 0.7);
+		transition: all 0.4s ease;
+	}
+	
+	@media screen and (min-width: $xxs-screen) {
+		font-size: 0.96em;
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		
+	}
+
+	@media screen and (min-width: $md-screen) {
+		
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}

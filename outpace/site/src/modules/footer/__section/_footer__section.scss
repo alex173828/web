@@ -1,0 +1,49 @@
+.footer__section {
+	display: grid;
+	text-align: center;
+	grid-gap: 1.5em;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		align-self: start;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		text-align: left;
+
+		&:nth-child(2) {
+			justify-self: end;
+		}
+		&:nth-child(3) {
+			justify-self: start;
+		}
+		&:nth-child(4) {
+			justify-self: end;
+		}
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* footer__section mods */

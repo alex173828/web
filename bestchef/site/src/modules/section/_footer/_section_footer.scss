@@ -1,0 +1,9 @@
+.section_footer {
+	background-color: $black;
+	color: $white;
+	padding: 4em;
+
+	@media screen and (min-width: 950px) {
+		padding: 2.5em 5em;
+	}
+}

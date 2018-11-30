@@ -1,0 +1,56 @@
+.modal {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	display: grid;
+	align-content: center;
+	align-items: center;
+	justify-items: center;
+	background-color: rgba(0, 0, 0, 0.45);
+	overflow-y: auto;
+	opacity: 0;
+	z-index: -1;
+	transition: all 0.4s ease-in-out;
+
+	@media screen and (min-width: $xxs-screen) {
+
+	}
+
+	@media screen and (min-width: $xs-screen) {
+
+	}
+
+	@media screen and (min-width: $sm-screen) {
+
+	}
+
+	@media screen and (min-width: $md-screen) {
+
+	}
+
+	@media screen and (min-width: $lg-screen) {
+
+	}
+
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+@import "__checkbox/_modal__checkbox";
+@import "__content/_modal__content";
+@import "__description/_modal__description";
+@import "__title/_modal__title";
+@import "__subtitle/_modal__subtitle";
+
+/* mods */
+@import "_active/_modal_active";

@@ -1,0 +1,37 @@
+.form__input_modal {
+	border: none;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+	background-color: transparent;
+	font-size: 0.9em;
+	padding: 1.4em 1.1em;
+	color: $white;
+	outline: none;
+
+	&::-moz-placeholder {
+		color: $white;
+	}
+
+	&::-webkit-input-placeholder {
+		color: $white;
+	}
+
+	&:focus::-webkit-input-placeholder {
+		color: transparent;
+		transition: all 0.3s ease;
+	}
+
+	&:focus::-moz-placeholder {
+		color: transparent;
+		transition: all 0.3s ease;
+	}
+
+	&:focus:-moz-placeholder {
+		color: transparent;
+		transition: all 0.3s ease;
+	}
+
+	&:focus:-ms-input-placeholder {
+		color: transparent;
+		transition: all 0.3s ease;
+	}
+}

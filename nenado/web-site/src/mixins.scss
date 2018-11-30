@@ -1,0 +1,68 @@
+@mixin page-padding() {
+	padding: 10em 1.33em 3em 1.33em;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		padding: 10em 3em 3.5em 3em;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		padding: 10em 3em 3em 3em;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		padding: 10em 4.2em 3em 4.2em;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		padding: 10em 6em 3em 6em;
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+	}
+}
+
+@mixin description-padding() {
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		padding: 0 7em;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		padding: 0 10em;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		padding: 0 13.5em;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}

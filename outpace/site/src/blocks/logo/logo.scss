@@ -1,0 +1,39 @@
+.logo {
+	text-decoration: none;
+	display: grid;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+	}
+
+	@media screen and (min-width: $md-screen) {
+		align-items: center;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* logo elements */
+@import "__img/_logo__img";
+@import "__label/_logo__label";

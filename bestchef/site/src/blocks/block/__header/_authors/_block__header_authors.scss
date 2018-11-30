@@ -1,0 +1,14 @@
+.block__header_authors {
+	height: 20em;
+	width: 20em;
+	-webkit-background-size: contain;
+	background-size: contain;
+	background-position: top center;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+
+	@media screen and (min-width: 768px) {
+		height: 24em;
+		width: 24em;
+	}
+}

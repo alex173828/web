@@ -1,0 +1,49 @@
+.header {
+	display: grid;
+	width: 100%;
+	grid-template-columns: auto auto;
+	justify-content: space-between;
+	justify-items: space-between;
+	align-items: center;
+	align-content: center;
+	padding: 1.8em 1.33em;
+	position: fixed;
+	z-index: 11;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		position: absolute;
+		padding: 2.5em 3em;
+		z-index: 11;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		padding: 3em 3.5em;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		padding: 3em 4.2em;
+	}
+
+	@media screen and (min-width: $xl-screen) {
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+		padding: 4em 6em;
+	}
+
+	@media all and (max-height: 420px) and (orientation: landscape) {
+		padding: 1.5em 2em;
+	}
+}

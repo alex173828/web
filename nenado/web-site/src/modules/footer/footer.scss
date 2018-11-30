@@ -1,0 +1,43 @@
+.footer {
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+
+	opacity: 0;
+	transform: translateY(100%);
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		
+	}
+
+	@media screen and (min-width: $md-screen) {
+		grid-column: 1 / 3;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* mods */
+@import "_animated/_footer_animated";

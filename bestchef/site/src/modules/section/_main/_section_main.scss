@@ -1,0 +1,16 @@
+.section_main {
+	grid-gap: 4em;
+	padding-top: 3em;
+
+	background: linear-gradient(to right, rgba(179, 28, 23, 1) 4%, rgba(255, 255, 255, 1) 4%, rgba(255, 255, 255, 1) 96%, rgba(179, 28, 23, 1) 96%);
+
+
+
+	@media screen and (min-width: 620px) {
+		background: linear-gradient(to right, rgba(179, 28, 23, 1) 10%, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 1) 90%, rgba(179, 28, 23, 1) 90%);
+	}
+
+	@media screen and (min-width: 950px) {
+		background: linear-gradient(to right, rgba(179, 28, 23, 1) 20%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 80%, rgba(179, 28, 23, 1) 80%);
+	}
+}

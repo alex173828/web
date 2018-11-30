@@ -1,0 +1,49 @@
+.modal__content {
+	display: grid;
+	background-color: #fff;
+	padding: 1.1em 1em 2.8em 1em;
+	border-radius: 7px;
+	grid-gap: 1.5em;
+	width: 94%;
+	position: relative;
+	z-index: 100;
+	transition: all 0.3s ease-in-out;
+	transform: scale(0.3);
+
+	@media screen and (min-width: $xxs-screen) {
+		width: 85%;
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		width: 60%;
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		width: 50%;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		width: 36%;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		width: 30%;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+		width: 28%;
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		width: 22%;
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+		width: 20%;
+	}
+}
+
+@import "_address/_modal__content_address";
+@import "_agreement/_modal__content_agreement";
+@import "_politics/_modal__content_politics";
+@import "_active/_modal__content_active";

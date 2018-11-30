@@ -1,0 +1,38 @@
+.slick-slider__control {
+	width: 20px;
+	cursor: pointer;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		
+	}
+
+	@media screen and (min-width: $md-screen) {
+		width: 26px;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		width: 32px;
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+@import "_team/_slick-slider__control_team";

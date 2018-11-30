@@ -1,0 +1,41 @@
+.button__label {
+	color: $white;
+	font-size: 0.9em;
+	font-weight: 400;
+	display: none;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		display: block;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* button modificators */
+@import "_active/_button__label_active";

@@ -1,0 +1,41 @@
+.button_modal {
+	display: grid;
+	grid-auto-flow: column;
+	align-items: center;
+	grid-column-gap: 2em;
+	grid-area: button_modal;
+	cursor: pointer;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		
+	}
+
+	@media screen and (min-width: $md-screen) {
+		top: 2em;
+		right: 5%;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}

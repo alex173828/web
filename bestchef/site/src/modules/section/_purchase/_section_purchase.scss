@@ -1,0 +1,29 @@
+.section_purchase {
+	justify-items: center;
+
+	div {
+		width: 100%;
+		padding-bottom: 0 !important;
+		@media screen and (min-width: 750px) {
+			width: 90%;
+		}
+
+		@media screen and (min-width: 950px) {
+			width: 80%;
+			padding-bottom: 5em;
+		}
+
+		@media screen and (min-width: 1150px) {
+			width: 70%;
+		}
+
+		@media screen and (min-width: 1350px) {
+			width: 60%;
+		}
+
+		div {
+			width: 100%;
+		}
+
+	}
+}

@@ -1,0 +1,43 @@
+.bloggers__card {
+	display: grid;
+	justify-items: center;
+	width: 20em;
+	grid-gap: 1.5em 0;
+
+	@media screen and (min-width: $xxs-screen) {
+
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		width: 18em;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		width: 17em;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		width: 16em;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		width: 17.5em;
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* bloggers__card elements */
+
+
+/* bloggers__card mods */

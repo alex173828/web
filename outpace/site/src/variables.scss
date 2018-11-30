@@ -1,0 +1,28 @@
+$fonts-path: 'assets/fonts';
+
+/* font colors */
+$white: rgba(255, 255, 255, 1);
+$black: #101010;
+$grey: #f8f8f8;
+$red: #d30d09;
+
+/* screen sizes */
+$xxs-screen: 350px;
+$xs-screen: 550px;
+$sm-screen: 750px;
+$md-screen: 950px;
+$lg-screen: 1150px;
+$xl-screen: 1350px;
+$xxl-screen: 1550px;
+$xxl2-screen: 1750px;
+
+/* transform px to em & rem */
+$browser-context: 15; // Default
+
+@function em($pixels, $context: $browser-context) {
+	@return #{$pixels/$context}em;
+}
+
+@function rem($pixels, $context: $browser-context) {
+	@return #{$pixels/$context}rem;
+}

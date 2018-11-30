@@ -1,0 +1,40 @@
+.bloggers__section {
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+	grid-gap: 5em 0;
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		grid-template-columns: repeat(2, auto);
+		grid-gap: 5em 3em;	
+	}
+
+	@media screen and (min-width: $md-screen) {
+		grid-template-columns: repeat(3, auto);
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		grid-template-columns: repeat(4, auto);
+		justify-content: space-between;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+		grid-row-gap: 5em;
+		grid-column-gap: 2em;
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}

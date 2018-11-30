@@ -1,0 +1,145 @@
+/* main slider */
+.main__slick-slider {
+	padding: 0 !important;
+	margin: 0 !important;
+	text-align: left;
+	color: $black;
+
+
+	.slick-list {
+		height: 100%;
+	}
+
+	.slick-track {
+		display: grid;
+		grid-auto-flow: row;
+		height: 100% !important;
+	}
+
+	.slick-slide {
+		height: 100vh !important;
+		padding: 0;
+		margin: 0;
+		width: 100vw !important;
+	}
+}
+
+/* inner sliders */
+.main, .about, .team {
+	.slick-slider {
+		height: auto;
+	}
+
+	.slick-slide {
+		display: grid !important;
+		align-items: center;
+		border: none !important;
+		height: auto;
+	}
+
+	.slick-track {
+		display: grid;
+		width: 100% !important;
+		grid-auto-flow: column !important;
+		height: auto !important;
+	}
+
+	.slick-list {
+		height: auto !important;
+	}
+}
+
+/* main block */
+.main {
+	.slick-slider {
+		color: $white;
+	}
+}
+
+/* about block */
+.statistics {
+	.slick-slide {
+		@media screen and (min-width: $lg-screen) {
+			width: auto !important;
+		}
+	}
+
+	.slick-track {
+		@media screen and (min-width: $lg-screen) {
+			grid-column-gap: 3rem;
+		}
+	}
+}
+
+/* team block */
+.team {
+	.slick-slide {
+		align-items: start;
+	}
+}
+
+
+/* slider arrows */
+.slick-arrow {
+}
+
+.slick-prev, .slick-next {
+	position: static;
+	align-self: center;
+}
+
+.slick-prev {
+	
+	&:before {
+		content: "";
+	}
+
+	&:hover, &:focus {
+		outline: none;
+	}
+}
+
+.slick-next {
+
+	&:before {
+		content: "";
+	}
+
+	&:hover, &:focus {
+		outline: none;
+	}
+}
+
+/* slick dots */
+.slick-dots {
+	display: grid !important;
+	align-self: end !important;
+	justify-self: center;
+
+	grid-auto-flow: column;
+	padding: 3rem 0;
+	grid-gap: 1.2rem;
+
+	position: absolute;
+	bottom: 0;
+	width: auto;
+
+	@media all and (max-height: 420px) and (orientation: landscape) {
+		padding: 2rem 0;
+	}
+
+	li {
+		display: grid;
+		height: auto;
+		width: auto;
+		margin: 0;
+		background-color: $grey;
+	}
+
+
+	.slick-active {
+		background-color: $blue;
+		transition: all 0.3s ease;
+		box-shadow: 0 0 1rem 0.15rem rgba(46, 134, 189, 1);
+	}
+}

@@ -1,0 +1,70 @@
+@import "mixins";
+@import "variables";
+@import "animations";
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Acrom';
+	src: local('Acrom_regular'), url('#{$fonts-path}/Acrom/Acrom_regular/Acrom_regular.woff') format('woff'), url('#{$fonts-path}/Acrom/Acrom_regular/Acrom_regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Acrom';
+	src: local('Acrom_regular'), url('#{$fonts-path}/Acrom/Acrom_bold/Acrom_bold.woff') format('woff'), url('#{$fonts-path}/Acrom/Acrom_bold/Acrom_bold.ttf') format('truetype');
+	font-style: bold;
+	font-weight: 700;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Acrom';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	color: $black;
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+.numberOfBloggers {
+	font-size: 0.7em;
+}
+
+/* import block */
+@import "blocks/button/button";
+@import "blocks/card/card";
+@import "blocks/description/description";
+@import "blocks/form/form";
+@import "blocks/input/input";
+@import "blocks/line/line";
+@import "blocks/link/link";
+@import "blocks/list/list";
+@import "blocks/logo/logo";
+@import "blocks/navigation/navigation";
+@import "blocks/section/section";
+@import "blocks/socials/socials";
+@import "blocks/title/title";
+@import "blocks/widget/widget";
+
+/* import modules */
+@import "modules/about/about";
+@import "modules/bloggers/bloggers";
+@import "modules/clients/clients";
+@import "modules/footer/footer";
+@import "modules/header/header";
+@import "modules/main/main";
+@import "modules/modal/modal";
+
+/* import pages */
+@import "pages/main-page/main-page";

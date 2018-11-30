@@ -1,0 +1,11 @@
+.container_authors {
+	grid-gap: 4em;
+
+	@media screen and (min-width: 768px) {
+		grid-gap: 8em;
+	}
+
+	@media screen and (min-width: 1150px) {
+		grid-template-columns: 1fr 1fr;
+	}
+}

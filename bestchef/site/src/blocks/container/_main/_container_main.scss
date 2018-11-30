@@ -1,0 +1,7 @@
+.container_main {
+	grid-gap: 5em;
+
+	@media screen and (min-width: 950px) {
+		grid-gap: 2em;
+	}
+}

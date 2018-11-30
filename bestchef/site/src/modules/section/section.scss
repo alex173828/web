@@ -1,0 +1,25 @@
+.section {
+	@include section__padding;
+
+	display: grid;
+	align-content: start;
+	width: 100%;
+}
+
+/* section elemenets */
+@import "__title/_section__title";
+
+/* section mods */
+@import "_whom/_section_whom";
+@import "_contacts/_section_contacts";
+@import "_partners/_section_partners";
+@import "_features/_section_features";
+@import "_footer/_section_footer";
+@import "_purchase/_section_purchase";
+@import "_gallery/_section_gallery";
+@import "_packages/_section_packages";
+@import "_map/_section_map";
+@import "_reviews/_section_reviews";
+@import "_program/_section_program";
+@import "_authors/_section_authors";
+@import "_main/_section_main";

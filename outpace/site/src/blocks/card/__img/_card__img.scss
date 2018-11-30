@@ -1,0 +1,56 @@
+.card__img {
+	width: 100%;
+	height: 27em;
+	background-color: $black;
+	border-radius: 0.9rem;
+
+	&:before {
+		content: "?";
+		width: 100%;
+		height: 100%;
+		display: grid;
+		position: relative;
+		top: 0;
+		left: 0;
+		justify-items: center;
+		align-items: center;
+		color: $white;
+		font-size: 6em;
+	}
+
+	&:hover {
+		box-shadow: 0px 13px 31px 0 rgba(0, 0, 0, 0.17);
+		transition: all 0.2s ease;
+		transform: scale(1.05);
+	}
+
+
+	@media screen and (min-width: $xxs-screen) {
+		height: 28em;
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		height: 26em;
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		height: 25em;	
+	}
+
+	@media screen and (min-width: $md-screen) {
+		height: 24em;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+		height: 26em;
+	}
+}

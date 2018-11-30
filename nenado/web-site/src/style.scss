@@ -1,0 +1,106 @@
+@import "mixins";
+@import "variables";
+@import "animations";
+
+/* styles of react plugins */
+@import "../node_modules/slick-carousel/slick/slick.css";
+@import "../node_modules/slick-carousel/slick/slick-theme.css";
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.switch-wrapper {
+	position: relative;
+}
+
+.switch-wrapper > div {
+	position: absolute;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-family: 'Century Gothic';
+	font-weight: 400;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	color: $black;
+
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: local('CenturyGothicRegular'), url('#{$fonts-path}/CenturyGothic/CenturyGothic_regular/CenturyGothic_regular.woff') format('woff'), url('#{$fonts-path}/CenturyGothic/CenturyGothic_regular/CenturyGothic_regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: local('CenturyGothicBold'), url('#{$fonts-path}/CenturyGothic/CenturyGothic_bold/CenturyGothic_bold.woff') format('woff'), url('#{$fonts-path}/CenturyGothic/CenturyGothic_bold/CenturyGothic_bold.ttf') format('truetype');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: local('CenturyGothicItalic'), url('#{$fonts-path}/CenturyGothic/CenturyGothic_italic/CenturyGothic_italic.woff') format('woff'), url('#{$fonts-path}/CenturyGothic/CenturyGothic_italic/CenturyGothic_italic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+/* import elements */
+@import "elements/button/button";
+@import "elements/checkbox/checkbox";
+@import "elements/icon/icon";
+@import "elements/input/input";
+@import "elements/label/label";
+@import "elements/link/link";
+@import "elements/list/list";
+@import "elements/select/select";
+@import "elements/textarea/textarea";
+@import "elements/title/title";
+
+/* import block */
+@import "blocks/bullets/bullets";
+@import "blocks/card/card";
+@import "blocks/contacts/contacts";
+@import "blocks/container/container";
+@import "blocks/description/description";
+@import "blocks/form/form";
+@import "blocks/gallery/gallery";
+@import "blocks/hamburger/hamburger";
+@import "blocks/logo/logo";
+@import "blocks/modal/modal";
+@import "blocks/navigation/navigation";
+@import "blocks/slick-slider/slick-slider";
+@import "blocks/socials/socials";
+@import "blocks/statistics/statistics";
+@import "blocks/teammate/teammate";
+@import "blocks/swiper-slider/swiper-slider";
+@import "blocks/address/address";
+@import "blocks/politics/politics";
+@import "blocks/agreement/agreement";
+@import "blocks/animation/animation";
+@import "blocks/switcher/switcher";
+
+/* import modules */
+@import "modules/about/about";
+@import "modules/communications/communications";
+@import "modules/experience/experience";
+@import "modules/footer/footer";
+@import "modules/header/header";
+@import "modules/main/main";
+@import "modules/menu/menu";
+@import "modules/services/services";
+@import "modules/sidebar/sidebar";
+@import "modules/team/team";
+
+/* import pages */
+@import "pages/page/page";

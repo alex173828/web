@@ -1,0 +1,18 @@
+.block__title_features {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.4em;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	span {
+		color: $red;
+		text-decoration: underline;
+	}
+
+	@media screen and (min-width: 750px) {
+		background-color: $white;
+		justify-self: center;
+		text-align: center;
+		padding: 0 0.5em;
+	}
+}

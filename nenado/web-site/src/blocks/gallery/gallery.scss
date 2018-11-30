@@ -1,0 +1,60 @@
+.gallery {
+	display: grid;
+	grid-gap: 0.7rem;
+	justify-self: start;
+	width: 100vw;
+	max-height: 50vh;
+	cursor: pointer;
+	padding-left: 1.33em;
+	/*grid-template-rows: 1fr 1fr;*/
+	grid-auto-flow: column;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	align-content: start;
+	align-items: start;
+	justify-content: start;
+
+	opacity: 0;
+	transform: translateX(100%);
+
+	&::-webkit-scrollbar {
+		display: none;
+	}
+
+	@media screen and (min-width: $xxs-screen) {
+		padding-top: 1em;
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		padding-left: 3em;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		padding-left: 3.5em;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		padding-left: 4.2em;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		padding-top: 4em;
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+		padding-left: 6em;
+	}
+}
+/* elements */
+@import "__item/_gallery__item";
+@import "__row/_gallery__row";
+
+/* mods */
+@import "_animated/_gallery_animated";

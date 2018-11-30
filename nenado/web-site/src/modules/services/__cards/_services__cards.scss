@@ -1,0 +1,50 @@
+.services__cards {
+	display: grid;
+
+	grid-auto-rows: 1fr;
+	grid-gap: 3em 0;
+	width: 90%;
+
+	opacity: 0;
+	transform: translateY(100%);
+
+	@media screen and (min-width: $xxs-screen) {
+		width: 80%;
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		width: 100%;
+		grid-column-gap: 4em;
+		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	}
+
+	@media screen and (min-width: $md-screen) {
+		grid-column-gap: 4em;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		width: 85%;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+		width: 90%;
+		grid-column-gap: 6em;
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		width: 85%;
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+		width: 80%;
+		grid-column-gap: 8em;
+	}
+}
+
+/* mods */
+@import "_animated/_services__cards_animated";

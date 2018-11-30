@@ -1,0 +1,60 @@
+.navigation__list {
+	position: absolute;
+	top: 0;
+	left: -100%;
+	opacity: 0;
+	background-color: $black;
+	width: 100vw;
+	height: 100vh;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+
+	grid-row-gap: 3.5em;
+	transition: all 0.5s ease-in-out;
+	/*animation: menu 0.5s ease-in-out;*/
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+	}
+
+	@media screen and (min-width: $md-screen) {
+		position: absolute;
+		width: auto;
+		height: auto;
+		align-self: center;
+		display: grid;
+		opacity: 1;
+		grid-auto-flow: column;
+		top: auto;
+		left: auto;
+		grid-column-gap: 3em;
+		justify-self: center;
+
+	}
+
+	@media screen and (min-width: $lg-screen) {
+
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+@import "_active/_navigation__list_active";

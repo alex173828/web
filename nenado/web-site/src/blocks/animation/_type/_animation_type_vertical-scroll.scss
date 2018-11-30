@@ -1,0 +1,44 @@
+.animation_type_vertical-scroll {
+	background: inherit;
+	will-change: transform, opacity;
+	transition: transform 4s ease, opacity 4s ease;
+	opacity: 1;
+	z-index: 2;
+	position: absolute;
+
+	&.prepear {
+		transition-duration: 1s;
+
+		&.prev.to {
+			transform: translateY(-30%);
+			opacity: 0;
+		}
+
+		&.next.to {
+			transform: translateY(30%);
+			opacity: 0;
+		}
+	}
+
+	&:not(.prepear) {
+		&.prev.to {
+			transform: translateY(0);
+			opacity: 1;
+		}
+
+		&.next.to {
+			transform: translateY(0);
+			opacity: 1;
+		}
+
+		&.prev.from {
+			transform: translateY(30%);
+			opacity: 0;
+		}
+
+		&.next.from {
+			transform: translateY(-30%);
+			opacity: 0;
+		}
+	}
+}

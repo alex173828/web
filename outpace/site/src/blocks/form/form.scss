@@ -1,0 +1,48 @@
+.form {
+	display: grid;
+	grid-gap: 5em;
+	justify-self: center;
+	align-self: center;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		
+	}
+
+	@media screen and (min-width: $md-screen) {
+		
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		width: 45%;
+		grid-gap: 4em;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		width: 40%;
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+		width: 35%;
+	}
+}
+
+/* form elements */
+@import "__body/_form__body";
+@import "__button/_form__button";
+@import "__footer/_form__footer";
+@import "__header/_form__header";
+@import "__input/_form__input";
+
+/* form modificators */

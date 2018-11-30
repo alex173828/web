@@ -1,0 +1,47 @@
+.about {
+	display: grid;
+	background-color: #f8f8f8;
+	grid-row-gap: 3.2em;
+	padding: calc(6em + 2em + 4em) 1.5em 0 1.5em;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		padding: calc(6em + 2em + 4em) 4em 0 4em;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		padding: calc(10em + 2em + 4em) 3em 0 3em;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		grid-template-columns: 1fr 1px 1fr;
+		grid-column-gap: 6em;
+		grid-row-gap: 3em;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+		padding: calc(8em + 2em + 4em) 6em 0 6em;
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		padding: calc(12em + 2em + 4em) 11em 0 11em;
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* about elements */
+@import "__line/about__line";
+@import "__section/_about__section";
+@import "__title/_about__title";
+
+/* about mods */

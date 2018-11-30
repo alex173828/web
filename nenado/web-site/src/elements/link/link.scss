@@ -1,0 +1,43 @@
+.link {
+	font-weight: 400;
+	text-decoration: none;
+	font-size: 1em;
+	display: block;
+	color: $black;
+	cursor: pointer;
+
+	@media screen and (min-width: $xxs-screen) {
+
+	}
+
+	@media screen and (min-width: $xs-screen) {
+
+	}
+
+	@media screen and (min-width: $sm-screen) {
+
+	}
+
+	@media screen and (min-width: $md-screen) {
+
+	}
+
+	@media screen and (min-width: $lg-screen) {
+
+	}
+
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+@import "_modal/_link_modal";
+@import "_color/_link_color_white";

@@ -1,0 +1,43 @@
+.form {
+	display: grid;
+	margin: 0 !important;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		
+	}
+
+	@media screen and (min-width: $md-screen) {
+		
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+@import "__input/_form__input";
+@import "__label/_form__label";
+@import "__textarea/_form__textarea";
+@import "_feedback/_form_feedback";
+@import "_modal/_form_modal";
+@import "__group/_form__group";

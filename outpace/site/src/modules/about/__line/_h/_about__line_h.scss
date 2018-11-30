@@ -1,0 +1,41 @@
+.about__line_h {
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		
+	}
+
+	@media screen and (min-width: $md-screen) {
+		
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		grid-column: 1 / 4;
+		width: 55%;
+		justify-self: center;
+		margin-top: 2em;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* about__line_horizontal elements */
+
+
+/* about__line_horizontal mods */

@@ -1,0 +1,31 @@
+$fonts-path: 'assets/fonts';
+
+/* font colors */
+$white: rgba(255, 255, 255, 1);
+$black: rgba(30, 35, 43, 1);
+$grey: rgba(177, 177, 177, 1);
+$blue: rgba(46, 134, 189, 1);
+$gradient-color: 
+linear-gradient(302deg, rgb(43, 136, 190), rgb(111, 84, 163)),
+linear-gradient(rgb(46, 134, 189), rgb(46, 134, 189));
+
+/* screen sizes */
+$xxs-screen: 350px;
+$xs-screen: 550px;
+$sm-screen: 750px;
+$md-screen: 950px;
+$lg-screen: 1150px;
+$xl-screen: 1350px;
+$xxl-screen: 1550px;
+$xxl2-screen: 1750px;
+
+/* transform px to em & rem */
+$browser-context: 15; // Default
+
+@function em($pixels, $context: $browser-context) {
+	@return #{$pixels/$context}em;
+}
+
+@function rem($pixels, $context: $browser-context) {
+	@return #{$pixels/$context}rem;
+}

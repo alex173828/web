@@ -1,0 +1,51 @@
+.card {
+	align-self: stretch;
+
+	display: grid;
+	grid-template-rows: 0.5fr 2fr auto;
+	width: 100%;
+
+	justify-items: stretch;
+	align-content: stretch;
+	
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 0.66rem;
+	box-shadow: 0 0 27px 5px rgba(0, 0, 0, 0.05);
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		
+	}
+
+	@media screen and (min-width: $md-screen) {
+
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+@import "__body/_card__body";
+@import "__footer/_card__footer";
+@import "__header/_card__header";
+@import "__title/_card__title";

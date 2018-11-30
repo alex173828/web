@@ -1,0 +1,66 @@
+.header {
+	background-color: $black;
+	display: grid;
+	grid-auto-flow: column;
+	justify-content: space-between;
+	justify-items: center;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	padding: 2em 1.5em;
+	grid-template-areas: "navigation header__logo button_modal";
+
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+	}
+
+	@media screen and (min-width: $md-screen) {
+		grid-template-areas: "header__logo navigation button_modal";		
+		justify-self: center;
+		position: absolute;
+		bottom: 0;
+		padding: 2em 5%;
+		grid-template-columns: auto 1fr auto;
+
+		&:before {
+			content: '';
+			display: block;
+			position: absolute;
+			height: 1px;
+			background-color: $grey;
+			opacity: 0.3;
+			top: 0;
+			width: 90%;
+		}
+	}
+
+	@media screen and (min-width: $lg-screen) {
+
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* header elements */
+@import "__logo/_header__logo";
+
+/* header mods */
+@import "_fixed/_header_fixed";

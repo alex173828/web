@@ -1,0 +1,55 @@
+.contacts {
+	display: grid;
+	grid-gap: 2.7em;
+	width: 90%;
+	position: relative;
+
+	opacity: 0;
+	transform: translateX(100%);
+	
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		justify-content: center;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		grid-column: 2 / 3;
+		justify-content: start;
+		justify-self: start;
+		padding-left: 4em;
+		align-self: end;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* elements */
+@import "__container/_contacts__container";
+@import "__data/_contacts__data";
+@import "__icon/_contacts__icon";
+@import "__link/_contacts__link";
+@import "__button/_contacts__button";
+
+/* mods */
+@import "_animated/_contacts_animated";

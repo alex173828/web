@@ -1,0 +1,53 @@
+.form_feedback {
+	display: grid;
+	justify-items: stretch;
+	grid-gap: 2em;
+	width: 90%;
+	position: relative;
+	
+	opacity: 0;
+	transform: translateX(-100%);
+
+	@media screen and (min-width: $xxs-screen) {
+		width: 80%;
+	}
+
+	@media screen and (min-width: $xs-screen) {
+
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		width: 60%;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		width: auto;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 2em 1em;
+		grid-column: 1 / 2;
+		justify-self: end;
+		padding-right: 4em;
+		border-right: 3px solid $grey;
+		border-radius: 1px;
+		align-self: end;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+
+	}
+
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}	
+}
+
+/* mods */
+@import "_animated/_form_feedback_animated";

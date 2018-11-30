@@ -1,0 +1,68 @@
+.button {
+	border: none;
+	color: $white;
+	font-weight: 700;
+	padding: 1.2rem 3rem;
+	border-radius: 1.55rem;
+	background: linear-gradient(300deg, rgb(0, 137, 193), rgb(121, 83, 167));
+	outline: none;
+	font-family: 'Century Gothic';
+	line-height: 1;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 0.95em;
+	background-clip: border-box;
+	background-origin: border-box;
+
+	&:hover {
+		box-shadow: 0 0 12px 3px rgba(46, 134, 189, .6);
+		transition: all 0.3s ease;
+	}
+
+	&:active {
+		box-shadow: inset 0 0 12px 3px rgba(46, 134, 189, .8);
+		transition: all 0.3s ease;
+	}
+
+	@media all and (max-height: 420px) and (orientation: landscape) {
+		padding: 0.8rem 2.5rem;
+	}
+
+
+
+	@media screen and (min-width: $xxs-screen) {
+
+	}
+
+	@media screen and (min-width: $xs-screen) {
+
+	}
+
+	@media screen and (min-width: $sm-screen) {
+
+	}
+
+	@media screen and (min-width: $md-screen) {
+	}
+
+	@media screen and (min-width: $lg-screen) {
+
+	}
+
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+
+@import "_feedback/_button_feedback";
+@import "_modal/_button_modal";

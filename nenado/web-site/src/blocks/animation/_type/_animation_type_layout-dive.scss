@@ -1,0 +1,42 @@
+.animation_type_layout-dive {
+	background: inherit;
+	will-change: transform, opacity;
+	transition: transform 0.4s ease, opacity 0.4s ease;
+	opacity: 1;
+
+	&.prepear {
+		transition-duration: 0.000000001s;
+
+		&.bubbling.to {
+			transform: scale(1.1);
+			opacity: 0;
+		}
+
+		&.diving.to {
+			transform: scale(0.9);
+			opacity: 0;
+		}
+	}
+
+	&:not(.prepear) {
+		&.bubbling.to {
+			transform: scale(1);
+			opacity: 1;
+		}
+
+		&.diving.to {
+			transform: scale(1);
+			opacity: 1;
+		}
+
+		&.bubbling.from {
+			transform: scale(0.9);
+			opacity: 0;
+		}
+
+		&.diving.from {
+			transform: scale(1.1);
+			opacity: 0;
+		}
+	}
+}

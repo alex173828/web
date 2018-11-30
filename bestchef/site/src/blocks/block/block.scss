@@ -1,0 +1,24 @@
+.block {
+	display: grid;
+}
+
+/* block elements */
+@import "__description/_block__description";
+@import "__title/_block__title";
+@import "__link/_block__link";
+@import "__header/_block__header";
+@import "__body/_block__body";
+@import "__footer/_block__footer";
+@import "__price/_block__price";
+@import "__button/_block__button";
+
+/* block mods */
+@import "_whom/_block_whom";
+@import "_contacts/_block_contacts";
+@import "_features/_block_features";
+@import "_footer/_block_footer";
+@import "_packages/_block_packages";
+@import "_reviews/_block_reviews";
+@import "_program/_block_program";
+@import "_authors/_block_authors";
+@import "_main/_block_main";

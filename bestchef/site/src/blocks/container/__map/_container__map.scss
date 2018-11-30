@@ -1,0 +1,21 @@
+.container__map {
+	border-radius: 10px;
+	width: 100%;
+	height: 24em;
+
+	@media screen and (min-width: 750px) {
+		height: 30em;
+	}
+
+	@media screen and (min-width: 950px) {
+		height: 36em;
+	}
+
+	@media screen and (min-width: 1150px) {
+		height: 42em;
+	}
+
+	@media screen and (min-width: 1350px) {
+		height: 46em;
+	}
+}

@@ -1,0 +1,13 @@
+.program {
+	display: grid;
+	grid-gap: 6em;
+	justify-content: center;
+	justify-items: center;
+
+	@media screen and (min-width: 1150px) {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+/* program elements */
+@import "__block/_program__block";
+@import "__title/_program__title";

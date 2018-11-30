@@ -1,0 +1,52 @@
+.about__section {
+	font-size: 1em;
+	line-height: 1.74;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: -0.4px;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		
+	}
+
+	@media screen and (min-width: $md-screen) {
+		
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		&:first-child {
+			grid-column: 1;
+		}
+
+		&:last-child {
+			grid-column: 1 / 4;
+			text-align: center;
+		}
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* about__section elements */
+
+
+/* about__section mods */

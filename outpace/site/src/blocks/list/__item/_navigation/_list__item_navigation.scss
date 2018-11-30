@@ -1,0 +1,43 @@
+.list__item_navigation {
+	color: $white;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: 400;
+
+	&:hover {
+		opacity: 0.4;
+		transition: all 0.2s ease;
+	}
+
+	@media screen and (min-width: $xxs-screen) {
+		font-size: 2.5em;
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		font-size: 3em;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		font-size: 0.9em;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}

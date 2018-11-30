@@ -1,0 +1,60 @@
+.modal {
+	display: grid;
+	align-items: start;
+	/*align-content: start;*/
+	grid-template-rows: auto 1fr;
+
+	width: 100vw;
+	height: 100%;
+	background-color: $black;
+	padding: 2em 1.5em;
+	position: fixed;
+	top: 0;
+	overflow-y: auto;
+	opacity: 0;
+	transform: scale(0.1);
+	z-index: -10;
+	transition: all 0.4s ease-in-out;
+	/*animation: modal 0.4s ease;*/
+
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		
+	}
+
+	@media screen and (min-width: $md-screen) {
+		padding: 2em 5%;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* modal elements */
+@import "__input/_modal__input";
+@import "__link/_modal__link";
+@import "__button/_modal__button.scss";
+
+/* modal mods */
+@import "_active/_modal_active";

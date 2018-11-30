@@ -1,0 +1,46 @@
+.bloggers {
+	@include modules-padding();
+	display: grid;
+	grid-row-gap: 3.2em;
+	align-content: start;
+	justify-items: stretch;
+	background-color: $grey;
+
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+	}
+
+	@media screen and (min-width: $sm-screen) {
+	}
+
+	@media screen and (min-width: $md-screen) {
+
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		grid-row-gap: 3em;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* bloggers elements */
+@import "__card/_bloggers__card";
+@import "__title/_bloggers__title";
+@import "__section/_bloggers__section";
+
+/* bloggers mods */

@@ -1,0 +1,34 @@
+@mixin modules-padding() {
+	padding: 6em 1.5em 0 1.5em;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		padding: 6em 4em 0 4em;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		padding: 10em 3em 0 3em;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+		padding: 8em 6em 0 6em;
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		padding: 12em 11em 0 11em;
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+	}
+}

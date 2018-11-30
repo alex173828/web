@@ -1,0 +1,55 @@
+.communications {
+	@include page-padding;
+
+	display: grid;
+	background: url('assets/img/bg/fon2.png') center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+
+	align-content: start;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+
+	grid-gap: 4em 0;
+
+	overflow-y: auto;
+
+	-webkit-overflow-scrolling: touch;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+	}
+
+	@media screen and (min-width: $md-screen) {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+	}
+}
+
+@import "__decsription/_communications__decsription";
+@import "__title/_communications__title";

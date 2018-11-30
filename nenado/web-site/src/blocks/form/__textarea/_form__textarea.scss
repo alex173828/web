@@ -1,0 +1,50 @@
+.form__textarea {
+	font-size: 1.1em;
+	padding: 1.2rem 2rem;
+	border-radius: 0.66rem;
+	border: none;
+	box-shadow: 0 0 5px 0.1px rgba(0, 0, 0, 0.05);
+	color: $grey;
+	background-color: rgba(255, 255, 255, 0.4);
+	resize: none;
+	outline: none;
+
+	&:focus {
+		transition: all 0.4s ease;
+		box-shadow: 0 0 5px 0.1px rgba(111, 84, 163, 1);
+		background-color: rgba(255, 255, 255, 0.7);
+	}
+	
+
+	@media screen and (min-width: $xxs-screen) {
+		font-size: 1em;
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		
+	}
+
+	@media screen and (min-width: $md-screen) {
+		
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}

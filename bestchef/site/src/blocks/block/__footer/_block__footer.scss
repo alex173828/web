@@ -1,0 +1,10 @@
+.block__footer {
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+	align-content: center;
+	align-items: center;
+}
+
+/* block__footer mods */
+@import "_packages/_block__footer_packages";

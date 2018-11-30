@@ -1,0 +1,70 @@
+.footer {
+	@include modules-padding();
+	display: grid;
+	grid-gap: 3em;
+	background-color: $grey;
+	justify-items: center;
+
+	&:before {
+		content: '';
+		display: block;
+		position: relative;
+		width: 100%;
+		top: 0;
+		height: 1px;
+		background-color: $black;
+		opacity: 0.3;
+	}
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		align-content: start;
+		align-items: center;
+		text-align: center;
+		grid-template-columns: repeat(3, 1fr);
+
+		&:before {
+			grid-column: 1 / 4;
+		}
+	}
+
+	@media screen and (min-width: $md-screen) {
+		
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		grid-template-columns: repeat(4, 1fr);
+		grid-column-gap: 5em;
+
+		&:before {
+			grid-column: 1 / 5;
+		}
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* footer elements */
+@import "__list/_footer__list";
+@import "__section/_footer__section";
+@import "__title/_footer__title";
+@import "__logo/_footer__logo";
+
+/* footer mods */

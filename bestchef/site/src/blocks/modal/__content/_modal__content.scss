@@ -1,0 +1,11 @@
+.modal__content {
+	display: grid;
+	grid-gap: 3em;
+	background-color: $white;
+
+	width: 100%;
+	max-width: 36em;
+	padding: 2em 2em 4em;
+	border-radius: 10px;
+
+}

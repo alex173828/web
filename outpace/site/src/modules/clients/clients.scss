@@ -1,0 +1,43 @@
+.clients {
+	@include modules-padding();
+	display: grid;
+	grid-row-gap: 3.2em;
+	background-color: $grey;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+	}
+
+	@media screen and (min-width: $sm-screen) {
+	}
+
+	@media screen and (min-width: $md-screen) {
+
+	}
+
+	@media screen and (min-width: $lg-screen) {		
+		grid-row-gap: 3em;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* clients elements */
+@import "__logo/_clients__logo";
+@import "__title/_clients__title";
+@import "__section/_clients__section";
+
+/* clients mods */

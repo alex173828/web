@@ -1,0 +1,17 @@
+.container {
+	display: grid;
+}
+
+/* container elements*/
+@import "__map/_container__map";
+
+/* container mods */
+@import "_contacts/_container_contacts";
+@import "_features/_container_features";
+@import "_footer/_container_footer";
+@import "_packages/_container_packages";
+@import "_partners/_container_partners";
+@import "_whom/_container_whom";
+@import "_program/_container_program";
+@import "_authors/_container_authors";
+@import "_main/_container_main";

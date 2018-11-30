@@ -1,0 +1,49 @@
+.main {
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background: $black url('assets/img/bg_sm.png') center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	@media screen and (min-width: $xxs-screen) {
+
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		background: $black url('assets/img/bg_lg.png') center center no-repeat;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		height: calc(100vh - 6em);
+	}
+
+	@media screen and (min-width: $lg-screen) {
+
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* main elements */
+@import "__title/_main__title";
+
+/* main mods */

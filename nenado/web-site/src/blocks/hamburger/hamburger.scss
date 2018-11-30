@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+
+ // Settings
+ // ==================================================
+ $hamburger-padding-x                       : 0 !important;
+ $hamburger-padding-y                       : 0 !default;
+ $hamburger-layer-width                     : 1.85rem !default;
+ $hamburger-layer-height                    : 2px !default;
+ $hamburger-layer-spacing                   : 5px !default;
+ $hamburger-layer-color                     : #fff !default;
+ $hamburger-layer-border-radius             : 4px !default;
+ $hamburger-hover-opacity                   : 1 !default;
+ $hamburger-hover-transition-duration       : 0.2s !default;
+ $hamburger-hover-transition-timing-function: linear !default;
+
+ // To use CSS filters as the hover effect instead of opacity,
+ // set $hamburger-hover-use-filter as true and
+ // change the value of $hamburger-hover-filter accordingly.
+ $hamburger-hover-use-filter: false !default;
+ $hamburger-hover-filter    : opacity(50%) !default;
+
+ // Types (Remove or comment out what you don’t need)
+ // ==================================================
+ $hamburger-types: (
+  3dx,
+  3dx-r,
+  3dy,
+  3dy-r,
+  3dxy,
+  3dxy-r,
+  arrow,
+  arrow-r,
+  arrowalt,
+  arrowalt-r,
+  arrowturn,
+  arrowturn-r,
+  boring,
+  collapse,
+  collapse-r,
+  elastic,
+  elastic-r,
+  emphatic,
+  emphatic-r,
+  minus,
+  slider,
+  slider-r,
+  spin,
+  spin-r,
+  spring,
+  spring-r,
+  stand,
+  stand-r,
+  squeeze,
+  vortex,
+  vortex-r
+  ) !default;
+
+ // Base Hamburger (We need this)
+ // ==================================================
+ // Hamburger
+ // ==================================================
+ .hamburger {
+  padding: $hamburger-padding-y $hamburger-padding-x;
+  display: inline-block;
+  cursor: pointer;
+
+  transition-property: opacity, filter;
+  transition-duration: $hamburger-hover-transition-duration;
+  transition-timing-function: $hamburger-hover-transition-timing-function;
+
+  // Normalize (<button>)
+  font: inherit;
+  color: inherit;
+  text-transform: none;
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  overflow: visible;
+  position: relative;
+  z-index: 100;
+  outline: none;
+  
+  &:hover {
+    @if $hamburger-hover-use-filter == true {
+      filter: $hamburger-hover-filter;
+    }
+    @else {
+      opacity: $hamburger-hover-opacity;
+    }
+  }
+}
+
+
+/* import elements */
+@import "__box/_hamburger__box";
+@import "__inner/_hamburger__inner";
+
+
+// Hamburger types
+// ==================================================
+@import "_type/hamburgers_type_3dx";
+@import "_type/hamburgers_type_3dx-r";
+@import "_type/hamburgers_type_3dy";
+@import "_type/hamburgers_type_3dy-r";
+@import "_type/hamburgers_type_3dxy";
+@import "_type/hamburgers_type_3dxy-r";
+@import "_type/hamburgers_type_arrow";
+@import "_type/hamburgers_type_arrow-r";
+@import "_type/hamburgers_type_arrowalt";
+@import "_type/hamburgers_type_arrowalt-r";
+@import "_type/hamburgers_type_arrowturn";
+@import "_type/hamburgers_type_arrowturn-r";
+@import "_type/hamburgers_type_boring";
+@import "_type/hamburgers_type_collapse";
+@import "_type/hamburgers_type_collapse-r";
+@import "_type/hamburgers_type_elastic";
+@import "_type/hamburgers_type_elastic-r";
+@import "_type/hamburgers_type_emphatic";
+@import "_type/hamburgers_type_emphatic-r";
+@import "_type/hamburgers_type_minus";
+@import "_type/hamburgers_type_slider";
+@import "_type/hamburgers_type_slider-r";
+@import "_type/hamburgers_type_spin";
+@import "_type/hamburgers_type_spin-r";
+@import "_type/hamburgers_type_spring";
+@import "_type/hamburgers_type_spring-r";
+@import "_type/hamburgers_type_stand";
+@import "_type/hamburgers_type_stand-r";
+@import "_type/hamburgers_type_squeeze";
+@import "_type/hamburgers_type_vortex";
+@import "_type/hamburgers_type_vortex-r";
+
+
+// ==================================================
+// Cooking up additional types:
+//
+// The Sass for each hamburger type should be nested
+// inside an @if directive to check whether or not
+// it exists in $hamburger-types so only the CSS for
+// included types are generated.
+//
+// e.g. hamburgers/types/_new-type.scss
+//
+// @if index($hamburger-types, new-type) {
+  //   .hamburger_type_new-type {
+    //     ...
+    //   }
+    // }

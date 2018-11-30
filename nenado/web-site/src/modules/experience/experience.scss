@@ -1,0 +1,64 @@
+.experience {
+	.slick-slider {
+		height: auto;
+	}
+	
+	@include page-padding;
+
+	display: grid;
+	background: url('assets/img/bg/fon3.png') center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	align-content: start;
+	align-items: start;
+	justify-content: center;
+	justify-items: center;
+	grid-gap: 1.8em;
+
+	width: 100vw;
+	height: 100vh;
+	color: $white;
+
+	overflow: auto;
+
+	-webkit-overflow-scrolling: touch;
+	&::-webkit-scrollbar {
+		display: none;
+	}
+
+	@media screen and (min-width: $xxs-screen) {
+
+	}
+
+	@media screen and (min-width: $xs-screen) {
+
+	}
+
+	@media screen and (min-width: $sm-screen) {
+
+	}
+
+	@media screen and (min-width: $md-screen) {
+
+	}
+
+	@media screen and (min-width: $lg-screen) {
+
+	}
+
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		grid-gap: 2.5em;
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+@import "__description/_experience__description";
+@import "__subtitle/_experience__subtitle";

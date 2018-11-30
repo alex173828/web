@@ -1,0 +1,13 @@
+.img_main {
+	display: block;
+	width: 100%;
+	width: 20em;
+	min-height: 22em;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	@media screen and (min-width: 1150px) {
+		width: 22em;
+		min-height: 24em;
+	}
+}

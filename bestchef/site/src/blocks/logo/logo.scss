@@ -1,0 +1,11 @@
+.logo {
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	align-content: start;
+	grid-gap: 2em;
+}
+
+/* logo elements */
+@import "__label/_logo__label";

@@ -1,0 +1,44 @@
+.navigation__button {
+	width: 3.2em;
+	height: 2.2em;
+	fill: $white;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	cursor: pointer;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+	}
+
+	@media screen and (min-width: $md-screen) {
+		display: none;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+/* navigation__button mods */
+@import "_active/_navigation__button_active";
+@import "_close/_navigation__button_close";

@@ -1,0 +1,49 @@
+.statistics__number {
+	font-size: 1em;
+	font-weight: 700;
+	background: linear-gradient(300deg, rgb(0, 137, 193), rgb(121, 83, 167));
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-fill-color: transparent;
+	align-self: end;
+	padding: 0;
+	margin: 0;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		
+	}
+
+	@media screen and (min-width: $md-screen) {
+		
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+@import "_size/_statistics__number_size_xl.scss";
+@import "_size/_statistics__number_size_lg.scss";
+@import "_size/_statistics__number_size_md.scss";
+@import "_size/_statistics__number_size_sm.scss";

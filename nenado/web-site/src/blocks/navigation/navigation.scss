@@ -1,0 +1,59 @@
+.navigation {
+	display: grid;
+	width: 100%;
+	height: 100%;
+
+	position: fixed;
+	top: 0;
+	right: 0;
+	transform: translateX(100%);
+	transition: all 0.5s ease-in-out;
+
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+	background-color: $black;
+	grid-gap: 2em;
+	z-index: 1;
+
+	@media all and (min-width: $xxs-screen) {
+	}
+
+	@media all and (min-width: $xs-screen) {
+	}
+
+	@media all and (min-width: $sm-screen) {
+		transform: none;
+		background-color: transparent;
+		width: auto;
+		height: auto;
+		grid-auto-flow: column;
+		position: static;
+	}
+
+	@media all and (min-width: $md-screen) {
+		
+	}
+
+	@media all and (min-width: $lg-screen) {
+
+	}
+
+	@media all and (min-width: $xl-screen) {
+
+	}
+
+	@media all and (min-width: $xxl-screen) {
+
+	}
+
+	@media all and (min-width: $xxl2-screen) {
+
+	}
+}
+
+@import "__link/_navigation__link";
+
+@import "_active/_navigation_active";

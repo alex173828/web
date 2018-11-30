@@ -1,0 +1,41 @@
+.header__logo {
+	display: grid;
+	align-items: center;
+	grid-area: header__logo;
+	align-self: center;
+	visibility: hidden;
+	text-decoration: none;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+	}
+
+	@media screen and (min-width: $md-screen) {		
+		display: grid;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+@import "_visible/_header__logo_visible";

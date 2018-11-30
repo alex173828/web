@@ -1,0 +1,13 @@
+.block__description_authors {
+	font-size: 1.2em;
+	line-height: 1.25em;
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+	
+	/*grid-gap: 1em;*/
+	grid-template-rows: auto 1fr;
+	
+	@media screen and (min-width: 950px) {
+	}
+}

@@ -1,0 +1,39 @@
+.modal__content_agreement {
+	width: 95%;
+	overflow-y: auto;
+	align-content: start;
+	max-height: 40em;
+
+	@media screen and (min-width: $xxs-screen) {
+		width: 85%;
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		width: 70%;
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		width: 60%;
+	}
+
+	@media screen and (min-width: $md-screen) {
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		max-height: 30em;
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+
+	@media screen and (max-width: $sm-screen) and (orientation: landscape) {
+		max-height: 60vh;
+	}
+}

@@ -1,0 +1,13 @@
+.container_features {
+	grid-gap: 3em;
+	justify-content: center;
+
+	@media screen and (min-width: 750px) {
+		grid-template-columns: repeat(2, 20em);
+		grid-gap: 6em 5em;
+	}
+
+	@media screen and (min-width: 950px) {
+		grid-gap: 6em 12em;
+	}
+}

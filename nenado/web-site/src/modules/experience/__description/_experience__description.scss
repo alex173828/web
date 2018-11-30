@@ -1,0 +1,34 @@
+.experience__description { 
+	font-size: 0.65rem;
+	padding: 0 1.33rem;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		font-size: 0.7rem;
+	}
+
+	@media screen and (min-width: $sm-screen) {
+	}
+
+	@media screen and (min-width: $md-screen) {
+		font-size: 0.8rem;
+	}
+
+	@media screen and (min-width: $lg-screen) {
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+		font-size: 0.85rem;
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		font-size: 0.95rem;
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+		font-size: 1rem;
+	}
+}

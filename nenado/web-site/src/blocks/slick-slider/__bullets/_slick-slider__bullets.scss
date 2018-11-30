@@ -1,0 +1,46 @@
+.slick-slider__bullets {
+	align-self: end;
+	justify-self: center;
+
+	grid-auto-flow: column;
+	padding: 3rem 0;
+	grid-gap: 1.2rem;
+
+	position: absolute;
+
+	@media all and (max-height: 420px) and (orientation: landscape) {
+		padding: 2rem 0;
+	}
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		
+	}
+
+	@media screen and (min-width: $md-screen) {
+		
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}

@@ -1,0 +1,48 @@
+.slick-slider_team {
+	display: grid;
+	grid-auto-flow: column;
+	align-items: center;
+	align-content: start;
+	grid-gap: 5em;
+	padding: 0 1.33em;
+	grid-template-columns: auto 1fr 1fr 1fr auto;
+	grid-template-rows:auto;
+	justify-items: center;
+	justify-content: center;
+
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		padding: 0 3em;
+	}
+
+	@media screen and (min-width: $md-screen) {
+		padding: 0 3.5em;
+
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		padding: 0 4.2em;
+
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+		padding: 0 6em;
+
+	}
+}

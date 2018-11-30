@@ -1,0 +1,40 @@
+.page {
+	display: grid;
+	align-content: start;
+	width: 100%;
+	height: 100%;
+	font-size: 10px;
+	overflow: hidden;
+
+	@media screen and (min-width: $xxs-screen) {
+		font-size: 12px;
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		font-size: 13px;
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		font-size: 14px;
+	}
+
+	@media screen and (min-width: $md-screen) {
+	}
+
+	@media screen and (min-width: $lg-screen) {
+	}
+
+	@media screen and (min-width: $xl-screen) {
+		font-size: 15px;
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		font-size: 16px;
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+		font-size: 18px;
+	}
+}
+
+@import "__slide/_page__slide";

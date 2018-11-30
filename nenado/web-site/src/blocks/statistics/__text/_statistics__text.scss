@@ -1,0 +1,46 @@
+.statistics__text {
+	color: $black;
+	font-weight: 700;
+	line-height: normal;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9;
+	align-self: start;
+
+	@media screen and (min-width: $xxs-screen) {
+		
+	}
+
+	@media screen and (min-width: $xs-screen) {
+		
+	}
+
+	@media screen and (min-width: $sm-screen) {
+		
+	}
+
+	@media screen and (min-width: $md-screen) {
+		
+	}
+
+	@media screen and (min-width: $lg-screen) {
+		
+	}
+	
+	@media screen and (min-width: $xl-screen) {
+
+	}
+
+	@media screen and (min-width: $xxl-screen) {
+		
+	}
+
+	@media screen and (min-width: $xxl2-screen) {
+
+	}
+}
+
+@import "_size/_statistics__text_size_xl.scss";
+@import "_size/_statistics__text_size_lg.scss";
+@import "_size/_statistics__text_size_md.scss";
+@import "_size/_statistics__text_size_sm.scss";
