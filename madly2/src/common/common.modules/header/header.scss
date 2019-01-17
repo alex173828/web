@@ -1,0 +1,11 @@
+.header {
+	display: block;
+}
+
+/* header elements */
+@import "__contacts/_header__contacts";
+@import "__nav/_header__nav";
+
+/* header mods */
+@import "_desktop/_header_desktop";
+@import "_mobile/_header_mobile";

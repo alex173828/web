@@ -1,0 +1,7 @@
+.contacts__link {
+	display: block;
+}
+
+@import "_header/_contacts__link_header";
+@import "_mail/_contacts__link_mail";
+@import "_tel/_contacts__link_tel";

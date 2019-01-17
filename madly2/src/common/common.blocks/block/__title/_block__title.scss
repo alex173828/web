@@ -1,0 +1,26 @@
+.block__title {
+	color: $white;
+	font-size: 20px;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: 0.8px;
+
+	@media screen and (min-width: 768px) {
+		font-size: 26px;
+	}
+
+	@media screen and (min-width: 960px) {
+		font-size: 30px;
+	}
+
+	@media screen and (min-width: 1150px) {
+		font-size: 32px;
+	}
+
+	@media screen and (min-width: 1300px) {
+		font-size: 36px;
+	}
+}
+
+@import "_about/_block__title_about";

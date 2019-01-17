@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<symbol id="icon_play" viewBox="0 0 30 36">
+		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+			<g id="Kontakty-(Madly)-Desktop" transform="translate(-583.000000, -307.000000)" fill-rule="nonzero">
+				<g id="Group-2" transform="translate(584.000000, 303.000000)">
+					<g id="Play" transform="translate(0.000000, 5.000000)">
+						<g id="Group">
+							<polygon id="Triangle" fill="#FFFFFF" points="21 15 13 20 13 10"></polygon>
+							<circle id="Oval" stroke="#545454" cx="15.5" cy="15.5" r="15.5"></circle>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</symbol>
+	<symbol id="icon_logo">
+		<g>
+			<text class="logo">Hello, Madly</text>
+		</g>
+	</symbol>
+	<symbol id="pagination__arrow_next" viewBox="0 0 7 10">
+		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.803683036">
+			<g transform="translate(-1295.000000, -901.000000)" fill-rule="nonzero" stroke="#979797">
+				<g id="Group-9" transform="translate(142.000000, 882.000000)">
+					<g transform="translate(1066.000000, 12.000000)">
+						<polyline id="Path-8" points="88 7 92.997986 11.997986 88 16.995972"></polyline>
+					</g>
+				</g>
+			</g>
+		</g>
+	</symbol>
+	<symbol id="pagination__arrow_prev" viewBox="0 0 7 10">
+		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.803683036">
+			<g id="Glavnaya-(Madly)-Desktop" transform="translate(-1207.000000, -901.000000)" fill-rule="nonzero" stroke="#979797">
+				<g id="Group-9" transform="translate(142.000000, 882.000000)">
+					<g id="Навигация" transform="translate(1066.000000, 12.000000)">
+						<polyline id="Path-8-Copy" transform="translate(2.498993, 11.997986) scale(-1, 1) translate(-2.498993, -11.997986) " points="0 7 4.997986 11.997986 0 16.995972"></polyline>
+					</g>
+				</g>
+			</g>
+		</g>
+	</symbol>
+	<symbol id="slider__arrow_prev" viewBox="0 0 182 10">
+		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+			<g id="O_kompanii-(Madly)-Desktop" transform="translate(-143.000000, -1414.000000)" fill-rule="nonzero" stroke="#5B5B5B">
+				<g id="Group-5" transform="translate(144.000000, 1414.000000)">
+					<polyline id="Path-5-Copy" transform="translate(2.500000, 5.000000) scale(-1, 1) translate(-2.500000, -5.000000) " points="0 0 5 5 0 10"></polyline>
+					<path d="M6.82121026e-13,5 L180.771598,5" id="Path-6"></path>
+				</g>
+			</g>
+		</g>
+	</symbol>
+	<symbol id="slider__arrow_next" viewBox="0 0 182 10">
+		<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+			<g id="O_kompanii-(Madly)-Desktop" transform="translate(-1114.000000, -1414.000000)" fill-rule="nonzero" stroke="#FFFFFF">
+				<g id="Group-4" transform="translate(1114.000000, 1414.000000)">
+					<polyline id="Path-5" points="176 0 181 5 176 10"></polyline>
+					<path d="M6.82121026e-13,5.25 L180.771598,5.25" id="Path-6-Copy"></path>
+				</g>
+			</g>
+		</g>
+	</symbol>
+</svg>

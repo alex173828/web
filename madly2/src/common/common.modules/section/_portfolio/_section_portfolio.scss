@@ -1,0 +1,10 @@
+.section_portfolio {
+	padding-top: 110px;
+	padding-bottom: 160px;
+
+	@media screen and (min-width: 960px) {
+		padding-top: 160px;
+		padding-bottom: 205px;
+	}
+}
+

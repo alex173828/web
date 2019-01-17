@@ -1,0 +1,12 @@
+.nav__link_footer {
+  color: $white;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -0.35px;
+  margin: 0 0.5rem;
+
+  @media screen and (min-width: 576px) {
+    margin: 0 1.33rem;
+  }
+}

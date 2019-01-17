@@ -1,0 +1,14 @@
+.nav__item_header_main {
+  &:first-child {
+    a.nav__link_header_main {
+      &:after {
+        display: inline-block;
+        position: relative;
+        top: 1.6px;
+        content: '>';
+        transform: rotate(90deg);
+        margin-left: 6px;
+      }
+    }
+  }
+}

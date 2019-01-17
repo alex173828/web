@@ -1,0 +1,9 @@
+.footer {
+  width: 100%;
+  background-color: $black;
+  padding: 2.35rem 0;
+  color: $white;
+}
+
+// footer elements
+@import "./__nav/footer__nav";

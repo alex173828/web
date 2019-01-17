@@ -1,0 +1,14 @@
+.card {}
+
+/* card elements */
+@import "__header/_card__header";
+@import "__body/_card__body";
+@import "__footer/_card__footer";
+@import "__img/_card__img";
+@import "__link/_card__link";
+@import "__paragraph/_card__paragraph";
+@import "__title/_card__title";
+
+/* card mods */
+@import "_about/_card_about";
+@import "_products/_card_products";

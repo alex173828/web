@@ -1,0 +1,7 @@
+.card_portfolio_hovered_bg_red {
+	&:hover {
+		background-color: $red;
+		transition: all 0.3s ease;
+	}
+}
+

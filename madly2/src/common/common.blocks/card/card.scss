@@ -1,0 +1,24 @@
+.card {
+	position: relative;
+
+	&::before {
+		display: block;
+		position: absolute;
+		top: 3.3em;
+		left: 1.65em;
+		content: '';
+		width: 5px;
+		height: 5px;
+		background-color: rgba(255, 255, 255, 0.4);
+		border-radius: 50%;
+		transition: all 0.3s ease-in-out;
+	}
+}
+
+
+@import "__description/_card__description";
+@import "__type/_card__type";
+@import "__title/_card__title";
+
+@import "_portfolio/_card_portfolio";
+@import "_review/_card_review";

@@ -1,0 +1,13 @@
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@import "__control/_pagination__control";
+@import "__pages/_pagination__pages";
+@import "__page/_pagination__page";
+
+
+@import "_last-works/_pagination_last-works";
+@import "_slider/_pagination_slider";

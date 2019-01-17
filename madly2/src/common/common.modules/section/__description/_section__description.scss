@@ -1,0 +1,22 @@
+.section__description {
+	color: $white;
+	opacity: 0.41;
+	font-size: 13px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 1.71;
+	letter-spacing: 0.6px;
+
+	@media screen and (min-width: 350px) {
+		font-size: 14px;
+	}
+
+	@media screen and (min-width: 768px) {
+		font-size: 16px;
+	}
+}
+
+@import "_first/_section__description_first";
+@import "_contacts/_section__description_contacts";
+

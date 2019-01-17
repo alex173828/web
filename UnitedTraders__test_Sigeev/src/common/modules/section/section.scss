@@ -1,0 +1,14 @@
+.section {
+  width: 100%;
+}
+
+/* section elements */
+@import "__title/_section__title";
+@import "__paragraph/_section__paragraph";
+@import "__subtitle/section__subtitle";
+
+/* section mods */
+@import "_about/_section_about";
+@import "_products/_section_products";
+@import "./_partners/section_partners";
+@import "./_main/section_main";

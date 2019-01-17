@@ -1,0 +1,7 @@
+.card_portfolio_hovered_bg_dull-orange {
+	&:hover {
+		background-color: $dull-orange;
+		transition: all 0.3s ease;
+	}
+}
+

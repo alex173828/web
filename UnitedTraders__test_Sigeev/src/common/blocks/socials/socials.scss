@@ -1,0 +1,11 @@
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem 0;
+}
+
+// socials elements
+@import "./__icon/socials__icon";
+@import "./__link/socials__link";

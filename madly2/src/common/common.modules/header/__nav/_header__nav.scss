@@ -1,0 +1,7 @@
+.header__nav {
+  display: grid;
+
+  @media screen and (min-width: 780px) {
+  	padding-left: 4.2em;
+  }
+}

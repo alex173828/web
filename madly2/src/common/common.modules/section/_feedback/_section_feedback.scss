@@ -1,0 +1,19 @@
+.section_feedback {
+	display: flex;
+	flex-direction: column;
+	justify-items: start;
+	align-content: start;
+	width: 100%;
+	padding: 90px 0 155px;
+	text-align: left;
+
+	@media screen and (min-width: 550px) {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	@media screen and (min-width: 768px) {
+		padding: 140px 0 205px;
+	}
+}
+

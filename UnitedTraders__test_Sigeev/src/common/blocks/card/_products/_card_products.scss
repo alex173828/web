@@ -1,0 +1,12 @@
+.card_products {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	align-content: start;
+	align-items: start;
+
+	height: 100%;
+	padding: 2rem 2rem 3.666rem;
+	max-width: 20rem;
+	margin-bottom: 35px;
+	margin: 17.5px auto;
+}

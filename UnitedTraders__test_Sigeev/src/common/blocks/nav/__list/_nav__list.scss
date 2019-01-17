@@ -1,0 +1,9 @@
+.nav__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+// nav__list mods
+@import "./_footer/nav__list_footer";
+@import "./_header/nav__list_header";

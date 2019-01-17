@@ -1,0 +1,8 @@
+.pagination__control_arrow {
+	display: inline-block;
+	width: 8px;
+	height: 10px;
+}
+
+@import "_left/_pagination__control_arrow_left";
+@import "_right/_pagination__control_arrow_right";

@@ -1,0 +1,9 @@
+.card_portfolio_hovered {
+	&:hover {
+		transition: all 0.4s ease;
+		border-color: $black;
+	}
+}
+
+@import "_bg/_card_portfolio_hovered_bg";
+@import "_color/_card_portfolio_hovered_color";

@@ -1,0 +1,38 @@
+.footer {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+	position: relative;
+	padding: 50px 0 0;
+	grid-gap: 25px 50px;
+
+	&::before {
+		content: '';
+		display: block;
+		width: calc(100% + 40px);
+		position: absolute;
+		top: 0;
+		left: -20px;
+		height: 1px;
+		background: linear-gradient(to right, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.4) 55%, rgba(255, 255, 255, 0.2) 55%, rgba(255, 255, 255, 0.2) 100%);
+
+		@media screen and (min-width: 960px) {
+			width: calc(100% + 180px);
+			left: -90px;
+			grid-template-columns: repeat(3, 1fr);
+		}
+
+		@media screen and (min-width: 1300px) {
+			width: calc(100% + 320px);
+			left: -160px;
+		}
+	}
+
+	@media screen and (min-width: 960px) {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@import "__container/_footer__container";
+@import "__title/_footer__title";
+@import "__nav/_footer__nav";
+@import "__contacts/_footer__contacts";

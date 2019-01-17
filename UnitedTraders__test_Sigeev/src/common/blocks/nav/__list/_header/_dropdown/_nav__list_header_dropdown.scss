@@ -1,0 +1,18 @@
+.nav__list_header_dropdown {
+  display: block;
+  position: absolute;
+  height: auto;
+  top: 2em;
+  left: 5.15em;
+  background-color: $black;
+  border-radius: 0 0 9px 9px;
+  opacity: 0;
+  z-index: -1;
+  margin: 1.5rem 0 0;
+
+  @media screen and (min-width: 992px) {
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@import "./_active/nav__list_header_dropdown_active";

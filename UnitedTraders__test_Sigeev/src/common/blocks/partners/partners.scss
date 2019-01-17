@@ -1,0 +1,12 @@
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+// partners elements
+@import "__logo/partners__logo";
+
+// partners mods

@@ -1,0 +1,16 @@
+.page {
+	display: block;
+	width: 100%;
+	min-height: 100vh;
+	background: $black;
+	padding: 55px 20px 70px;
+	max-width: 1440px;
+
+	@media screen and (min-width: 960px) {
+		padding: 60px 90px 75px;
+	}
+
+	@media screen and (min-width: 1300px) {
+		padding: 60px 160px 75px;
+	}
+}

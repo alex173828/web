@@ -1,0 +1,32 @@
+.card_portfolio {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	align-content: start;
+	grid-gap: 70px 0;
+	height: 280px;
+	padding: 60px 25px;
+	width: 100%;
+	max-width: 300px;
+	border: 1px solid;
+	border-color: rgba(255, 255, 255, 0.1);
+	text-decoration: none;
+	position: relative;
+
+	transition: all 0.3s ease-in-out;
+	color: rgba(255, 255, 255, 0.4);
+
+	@media screen and (min-width: 350px) {
+		grid-gap: 110px 0;
+		height: 330px;
+	}
+
+	@media screen and (min-width: 1150px) {
+		max-width: 530px;
+		height: 358px;
+	}
+
+
+}
+
+@import "_hovered/_card_portfolio_hovered";

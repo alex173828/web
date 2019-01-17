@@ -1,0 +1,19 @@
+.nav__list_header {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  grid-gap: 1.5rem;
+  margin: 0.75rem;
+
+  @media screen and (min-width: 992px) {
+    margin: 0;
+    height: 100%;
+    justify-content: end;
+    grid-auto-flow: column;
+  }
+}
+
+// nav__list_header mods
+@import "./_main/_nav__list_header_main";
+@import "./_dropdown/nav__list_header_dropdown";

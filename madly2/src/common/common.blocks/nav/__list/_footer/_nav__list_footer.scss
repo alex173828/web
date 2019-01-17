@@ -1,0 +1,12 @@
+.nav__list_footer {
+	display: grid;
+	justify-content: start;
+	justify-items: start;
+	grid-gap: 18px;
+
+	@media screen and (min-width: 960px) {
+		grid-template-columns: repeat(2, auto);
+		grid-gap: 18px 75px;
+	}
+}
+

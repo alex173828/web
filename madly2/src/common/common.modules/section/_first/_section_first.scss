@@ -1,0 +1,14 @@
+.section_first {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding: 90px 0 155px;
+
+	@media screen and (min-width: 768px) {
+		padding: 170px 0 250px;
+	}
+}
+

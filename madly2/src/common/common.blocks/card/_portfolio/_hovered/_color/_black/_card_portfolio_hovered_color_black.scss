@@ -1,0 +1,17 @@
+.card_portfolio_hovered_color_black {
+	&:hover {
+		color: $black;
+		transition: all 0.3s ease;
+
+		.card__title_portfolio {
+			color: $black;
+			transition: all 0.3s ease;
+		}
+
+		&::before {
+			background-color: $black;
+			transition: all 0.3s ease;
+		}
+	}
+}
+

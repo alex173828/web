@@ -1,0 +1,17 @@
+.icon_logo {
+	display: grid;
+	width: 131px;
+	height: 19px;
+
+	@media screen and (min-width: 780px) {
+		font-size: 22px;
+		height: 22px;
+		width: 152px;
+	}
+
+	@media screen and (min-width: 960px) {
+		font-size: 28px;
+		height: 28px;
+		width: 190.6px;
+	}
+}

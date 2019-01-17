@@ -1,0 +1,25 @@
+.section__title_main {
+  color: $white;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1.44px;
+  margin: 40px 0;
+
+  @media screen and (min-width: 350px) {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 44px;
+  }
+
+  @media screen and (min-width: 992px) {
+    font-size: 48px;
+    line-height: 48px;
+  }
+}

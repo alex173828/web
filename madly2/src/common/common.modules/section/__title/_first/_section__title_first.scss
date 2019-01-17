@@ -1,0 +1,28 @@
+.section__title_first {
+	font-size: 54px;
+	color: $white;
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+	letter-spacing: -1.4px;
+	line-height: 1.1;
+
+	span {
+		text-shadow: 0 0 1px rgba(255, 255, 255, 1);
+		color: $black;
+	}
+
+	@media screen and (min-width: 350px) {
+		font-size: 63px;
+	}
+
+	@media screen and (min-width: 960px) {
+		font-size: 78px;
+		margin: 0.65em;
+	}
+
+	@media screen and (min-width: 1150px) {
+		font-size: 93px;
+	}
+}
+

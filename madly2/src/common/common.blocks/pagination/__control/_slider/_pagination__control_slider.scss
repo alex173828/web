@@ -1,0 +1,13 @@
+.pagination__control_slider {
+	display: block;
+	width: 50px;
+	height: 10px;
+
+	@media screen and (min-width: 960px) {
+		width: 182px;
+		height: 10px;
+	}
+}
+
+@import "_next/_pagination__control_slider_next";
+@import "_prev/_pagination__control_slider_prev";

@@ -1,0 +1,9 @@
+.header_desktop {
+	display: none;
+
+	@media screen and (min-width: 780px) {
+		display: grid;
+		grid-gap: 25px;
+	}
+}
+

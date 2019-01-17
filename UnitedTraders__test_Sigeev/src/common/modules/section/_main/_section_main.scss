@@ -1,0 +1,20 @@
+.section_main {
+  background: #19263f url('./assets/img/bg/2-layers.png') center center no-repeat;
+  background-size: cover;
+  color: $white;
+  padding: 50px 0;
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+
+  @media screen and (min-width: 576px) {
+    min-height: 500px;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    min-height: 500px;
+    align-items: flex-end;
+  }
+}

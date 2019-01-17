@@ -1,0 +1,18 @@
+.card_portfolio_hovered_color_white {
+	&:hover {
+		color: $white;
+		transition: all 0.3s ease;
+
+		.card__title_portfolio {
+			color: $white;
+			transition: all 0.3s ease;
+		}
+
+
+		&::before {
+			background-color: rgba(255, 255, 255, 1);
+			transition: all 0.3s ease;
+		}
+	}
+}
+

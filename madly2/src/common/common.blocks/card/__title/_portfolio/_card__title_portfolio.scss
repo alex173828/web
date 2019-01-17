@@ -1,0 +1,13 @@
+.card__title_portfolio {
+	font-size: 23px;
+	font-weight: 400;
+	margin-left: 10px;
+	color: rgba(255, 255, 255, 1);
+	transition: all 0.3s ease-in-out;
+
+	@media screen and (min-width: 1150px) {
+		font-size: 25px;
+	}
+
+}
+

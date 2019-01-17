@@ -1,0 +1,13 @@
+.nav__list_header_dropdown_active {
+  opacity: 1;
+  z-index: 100;
+  position: relative;
+  top: 0;
+  left: 0;
+
+  @media screen and (min-width: 992px) {
+    opacity: 1;
+    z-index: 100;
+    transition: all 0.3s ease;
+  }
+}

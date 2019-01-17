@@ -1,0 +1,56 @@
+/* variables and mixins */
+@import 'variables';
+@import 'mixins';
+
+/* fonts */
+@font-face {
+	font-family: 'TTCommons';
+	src: local('ttcommons_regular'), url('#{$fonts-path}/ttcommons/ttcommons_regular/ttcommons_regular.woff') format('woff'), url('#{$fonts-path}/ttcommons/ttcommons_regular/ttcommons_regular.ttf') format('truetype');
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'TTCommons';
+	src: local('ttcommons_medium'), url('#{$fonts-path}/ttcommons/ttcommons_medium/ttcommons_medium.woff') format('woff'), url('#{$fonts-path}/ttcommons/ttcommons_medium/ttcommons_medium.ttf') format('truetype');
+	font-weight: 500;
+}
+@font-face {
+	font-family: 'TTCommons';
+	src: local('ttcommons_semibold'), url('#{$fonts-path}/ttcommons/ttcommons_semibold/ttcommons_semibold.woff') format('woff'), url('#{$fonts-path}/ttcommons/ttcommons_semibold/ttcommons_semibold.ttf') format('truetype');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'BaronNeue';
+	src: local('baronNeue'), url('#{$fonts-path}/baronneue/baronNeue.woff') format('woff'), url('#{$fonts-path}/baronneue/baronNeue.ttf') format('truetype');
+	font-weight: 400;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	display: flex;
+	justify-content: center;
+
+	background-color: $black;
+	font-family: 'TTCommons', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: normal;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+/* common.pages */
+@import "common/common.pages/common.pages";
+
+/* common.modules */
+@import "common/common.modules/common.modules";
+
+/* common.blocks */
+@import "common/common.blocks/common.blocks";
+
+/* common elements */
+@import "common/common.elements/common.elements";

@@ -1,0 +1,11 @@
+.slider_features {
+	display: grid;
+	grid-gap: 60px;
+	margin-bottom: 100px;
+
+	@media screen and (min-width: 960px) {
+		margin-bottom: 120px;
+		grid-gap: 80px;
+	}
+}
+
