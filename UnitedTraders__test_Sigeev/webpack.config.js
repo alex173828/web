@@ -22,7 +22,7 @@ module.exports = {
       {
         test: /\.(html)$/,
         use: {
-          loader: 'html-loader'
+          loader: 'html-srcsets-loader'
         }
       }, {
         test: /\.js$/,

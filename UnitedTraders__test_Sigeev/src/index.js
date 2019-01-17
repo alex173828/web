@@ -4,12 +4,15 @@ import style from './style.scss';
 var nav__button_hamburger = document.getElementById('nav__button_hamburger');
 var header__nav = document.getElementById('menu');
 var nav__link_header = document.getElementsByClassName('nav__link_header');
+var body = document.getElementById('body');
 
 nav__button_hamburger.addEventListener('click', function() {
   if (nav__button_hamburger.classList.contains('is-active')) {
+    body.style.overflow = 'auto';
     nav__button_hamburger.classList.remove('is-active');
     header__nav.classList.remove('header__nav_active');
   } else {
+    body.style.overflow = 'hidden';
     nav__button_hamburger.classList.add('is-active');
     header__nav.classList.add('header__nav_active');
   }
