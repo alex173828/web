@@ -1,9 +1,0 @@
-.block__description {
-	@include section__paragraph;
-}
-
-/* block__description mods */
-@import "_features/_block__description_features";
-@import "_advantages/_block__description_advantages";
-@import "_steps/_block__description_steps";
-@import "_distributors/_block__description_distributors";
