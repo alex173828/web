@@ -10,5 +10,18 @@
         margin-left: 6px;
       }
     }
+
+    @media screen and (min-width: 992px) {
+      &:hover > ul {
+        display: block;
+        grid-auto-flow: row;
+        position: absolute;
+        top: 0;
+        left: 5.15em;
+        opacity: 1;
+        z-index: 100;
+        transition: all 0.3s ease;
+      }
+    }
   }
 }

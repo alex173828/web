@@ -7,7 +7,7 @@
     transition: all 0.2s ease;
   }
 
-  &:focus {
+  &:active {
     color: $blue;
     transition: all 0.2s ease;
   }
