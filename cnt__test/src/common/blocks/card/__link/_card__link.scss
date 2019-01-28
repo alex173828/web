@@ -1,0 +1,8 @@
+.card__link {
+  cursor: pointer;
+}
+
+// card__link mods
+@import "./_details/card__link_details";
+@import "./_interview/card__link_interview";
+@import "./_about/card__link_about";

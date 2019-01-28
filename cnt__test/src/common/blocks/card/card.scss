@@ -1,0 +1,37 @@
+.card {
+  display: block;
+  background-color: $white;
+  border-radius: $card__br;
+  box-shadow: $card__boxshadow;
+}
+
+// card elements
+@import "./__body/card__body";
+@import "./__casting-payment/card__casting-payment";
+@import "./__casting-role/card__casting-role";
+@import "./__casting-time/card__casting-time";
+@import "./__casting-type/card__casting-type";
+@import "./__description/card__description";
+@import "./__footer/card__footer";
+@import "./__header/card__header";
+@import "./__img/card__img";
+@import "./__link/card__link";
+@import "./__number-of-subcscriptions/card__number-of-subcscriptions";
+@import "./__number-of-subscribers/card__number-of-subscribers";
+@import "./__options/card__options";
+@import "./__price/card__price";
+@import "./__subscribers/card__subscribers";
+@import "./__subscriptions/card__subscriptions";
+@import "./__subtitle/card__subtitle";
+@import "./__title/card__title";
+@import "./__company-info/card__company-info";
+@import "./__company-type/card__company-type";
+@import "./__decoration/card__decoration";
+@import "./__icon/card__icon";
+
+// card mods
+@import "./_about/_card_about";
+@import "./_interview/_card_interview";
+@import "./_profile/card_profile";
+@import "./_socials/_card_socials";
+@import "./_subscription/_card_subscription";

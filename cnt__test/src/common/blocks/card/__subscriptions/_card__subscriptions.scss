@@ -1,0 +1,12 @@
+.card__subscriptions {
+  text-decoration: none;
+  color: $steel;
+  transition: all 0.2s ease;
+
+  &:hover {
+    span {
+      transition: all 0.2s ease;
+      text-decoration: underline
+    }
+  }
+}

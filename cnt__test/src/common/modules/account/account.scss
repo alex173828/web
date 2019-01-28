@@ -1,0 +1,15 @@
+.account {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: 680px) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+// account elements
+@import "./__feed/account__feed";
+@import "./__profile/account__profile";

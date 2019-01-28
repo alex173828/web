@@ -1,0 +1,26 @@
+.card__options {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+
+  div {
+    width: 5px;
+    height: 5px;
+    background-color: rgba(218, 219, 225, 0.98);
+    margin: auto 2.5px;
+    border-radius: 50%;
+    outline: $steel;
+
+    &:fisrt-child {
+      margin-left: 0;
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+// card__options mods
+@import "./_services/card__options_services";

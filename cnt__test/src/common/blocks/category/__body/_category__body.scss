@@ -1,0 +1,9 @@
+.category__body {
+  display: flex;
+  flex-wrap: wrap;
+
+  display: grid;
+  grid-gap: 16px;
+  margin-top: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 243px));
+}

@@ -1,0 +1,17 @@
+.category {
+  display: block;
+}
+
+// category elements
+@import "./__body/category__body";
+@import "./__card/category__card";
+@import "./__control/category__control";
+@import "./__controls/category__controls";
+@import "./__header/category__header";
+@import "./__number-of-cards/category__number-of-cards";
+@import "./__title/category__title";
+
+// category mods
+@import "./_casting/_category_casting";
+@import "./_cooperation/_category_cooperation";
+@import "./_services/_category_services";

@@ -1,0 +1,9 @@
+.category__card {
+  display: block;
+  font-size: 14px;
+  letter-spacing: -0.33px;
+  color: $steel;
+}
+
+// category__card mods
+@import "_cooperation/_category__card_cooperation";

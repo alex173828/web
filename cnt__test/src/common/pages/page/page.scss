@@ -1,0 +1,15 @@
+.page {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 25px 15px;
+
+  @media screen and (min-width: 350px) {
+    padding: 25px;
+  }
+
+  @media screen and (min-width: 440px) {
+    padding: 63px;
+  }
+}

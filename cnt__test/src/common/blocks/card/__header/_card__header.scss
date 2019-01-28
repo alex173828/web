@@ -1,0 +1,11 @@
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 16px 0;
+}
+
+// card__header mods
+@import "_services/_card__header_services";
+@import "./_cooperation/card__header_cooperation";
+@import "./_profile/card__header_profile";

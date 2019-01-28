@@ -1,0 +1,10 @@
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// socials elements
+@import "./__icon/_socials__icon";
+@import "./__link/_socials__link";
+@import "./__label/_socials__label";

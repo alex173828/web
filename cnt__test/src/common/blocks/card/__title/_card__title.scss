@@ -1,0 +1,15 @@
+.card__title {
+  font-size: 18px;
+  margin: 8px 0;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: -1px;
+  color: $dark;
+}
+
+// card__title mods
+@import "./_services/card__title_services";
+@import "./_cooperation/card__title_cooperation";
+@import "./_name/card__title_name";

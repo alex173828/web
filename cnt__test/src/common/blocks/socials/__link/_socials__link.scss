@@ -1,0 +1,12 @@
+.socials__link {
+  display: flex;
+  align-items: center;
+}
+
+// socials__link mods
+@import "./_facebook/socials__link_facebook";
+@import "./_google-plus/socials__link_google-plus";
+@import "./_odnoklassniki/socials__link_odnoklassniki";
+@import "./_twitter/socials__link_twitter";
+@import "./_vk/socials__link_vk";
+@import "./_youtube/socials__link_youtube";

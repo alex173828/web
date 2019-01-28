@@ -1,0 +1,9 @@
+.card__link_interview {
+  text-decoration: none;
+  color: $steel;
+  
+  &:hover {
+
+    text-decoration: underline;
+  }
+}

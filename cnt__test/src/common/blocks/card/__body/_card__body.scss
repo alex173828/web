@@ -1,0 +1,12 @@
+.card__body {
+  padding: 0 16px 16px;
+}
+
+// card__body mods
+@import "./_services/card__body_services";
+@import "./_cooperation/card__body_cooperation";
+@import "./_profile/card__body_profile";
+@import "./_subscription/card__body_subscription";
+@import "./_interview/card__body_interview";
+@import "./_about/card__body_about";
+@import "./_socials/card__body_socials";

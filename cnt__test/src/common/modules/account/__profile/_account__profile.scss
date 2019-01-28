@@ -1,0 +1,9 @@
+.account__profile {
+  flex-basis: 276px;
+  flex-shrink: 0;
+
+  display: grid;
+  align-content: start;
+  max-width: 276px;
+  grid-gap: 16px;
+}

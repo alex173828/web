@@ -1,0 +1,14 @@
+.button_add {
+  background-color: transparent;
+  color: $steel;
+  border: 1px solid $steel;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: $button__br;
+}
